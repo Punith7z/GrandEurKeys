@@ -1,0 +1,173 @@
+<!-- Header Banner -->
+<header class="checkout-header">
+    <span class="checkout-eyebrow">Secure Settlement Portal</span>
+    <h1 class="checkout-headline">Review your itinerary.</h1>
+    <p class="checkout-subhead">Please confirm your selected dates, guest allocations, and settle your payment to secure
+        residency.</p>
+</header>
+
+<!-- Main Layout Split -->
+<div class="checkout-grid">
+
+    <!-- Left Side: Dynamic Itinerary List -->
+    <div class="itinerary-column">
+        <h2 class="column-title">Your Custom Itinerary</h2>
+
+        <div class="segments-list">
+            <% cart.forEach((segment, index)=> { %>
+                <div class="segment-card">
+                    <div class="segment-image-frame">
+                        <img src="<%= segment.propertyImage %>" alt="<%= segment.propertyName %>" class="segment-img">
+                    </div>
+                    <div class="segment-details">
+                        <div class="segment-header-row">
+                            <span class="segment-badge">Stop <%= index + 1 %></span>
+                            <a href="/api/booking/remove/<%= segment.id %>" class="remove-segment-btn"
+                                aria-label="Discard this stop">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="3 6 5 6 21 6"></polyline>
+                                    <path
+                                        d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                    </path>
+                                </svg>
+                                <span>Remove</span>
+                            </a>
+                        </div>
+                        <h3 class="segment-name">
+                            <%= segment.propertyName %>
+                        </h3>
+                        <p class="segment-location">
+                            <%= segment.location %>
+                        </p>
+
+                        <div class="segment-meta-grid">
+                            <div class="meta-item">
+                                <span class="meta-label">Check-In</span>
+                                <span class="meta-value">
+                                    <%= new Date(segment.checkIn).toLocaleDateString('en-US', { month: 'short' ,
+                                        day: 'numeric' , year: 'numeric' }) %>
+                                </span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Check-Out</span>
+                                <span class="meta-value">
+                                    <%= new Date(segment.checkOut).toLocaleDateString('en-US', { month: 'short' ,
+                                        day: 'numeric' , year: 'numeric' }) %>
+                                </span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Nights</span>
+                                <span class="meta-value">
+                                    <%= segment.totalNights %>
+                                        <%= segment.totalNights===1 ? 'Night' : 'Nights' %>
+                                </span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Guests</span>
+                                <span class="meta-value">
+                                    <%= segment.guests %>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <% }) %>
+        </div>
+
+        <!-- Add More Stops Portal Option (Prompting Split Stays) -->
+        <div class="add-stop-card">
+            <div class="add-stop-info">
+                <h4>Desire a multi-destination escape?</h4>
+                <p>We seamlessly handle your transportation and checkout transitions when switching properties.</p>
+            </div>
+            <a href="/properties" class="add-stop-btn">+ Add Next Stop</a>
+        </div>
+    </div>
+
+    <!-- Right Side: Sticky Checkout / Billing panel -->
+    <div class="billing-column">
+        <div class="checkout-card">
+            <h2 class="card-title">Order Summary</h2>
+
+            <!-- Itemized Invoice Details -->
+            <div class="invoice-breakdown">
+                <div class="invoice-row">
+                    <span class="invoice-label">Combined Room Charges</span>
+                    <span class="invoice-value">
+                        <%= formatCurrency(bill.roomCharge) %>
+                    </span>
+                </div>
+                <div class="invoice-row">
+                    <span class="invoice-label">Grandeur Service Fee (8%)</span>
+                    <span class="invoice-value">
+                        <%= formatCurrency(bill.serviceFees) %>
+                    </span>
+                </div>
+                <div class="invoice-row">
+                    <span class="invoice-label">Luxury Lodging Tax (12%)</span>
+                    <span class="invoice-value">
+                        <%= formatCurrency(bill.taxes) %>
+                    </span>
+                </div>
+                <div class="invoice-row total-row">
+                    <span class="invoice-label">Grand Total</span>
+                    <span class="invoice-value highlight">
+                        <%= formatCurrency(bill.grandTotal) %>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Payment Details Terminal -->
+            <form id="paymentForm" class="payment-form">
+                <h3 class="terminal-title">Payment Credentials</h3>
+
+                <!-- Cardholder Name -->
+                <div class="form-group">
+                    <label for="cardHolder">Cardholder Name</label>
+                    <input type="text" id="cardHolder" name="cardHolder" required placeholder="E.g., Julian Vance"
+                        autocomplete="cc-name" class="apple-input">
+                </div>
+
+                <!-- Card Number with Live Formatting -->
+                <div class="form-group">
+                    <label for="cardNumber">Card Number</label>
+                    <div class="input-icon-wrapper">
+                        <input type="text" id="cardNumber" name="cardNumber" required placeholder="0000 0000 0000 0000"
+                            maxlength="19" autocomplete="cc-number" class="apple-input cc-input">
+                        <span class="card-type-icon" id="cardBrandIcon">💳</span>
+                    </div>
+                </div>
+
+                <!-- Dynamic Row: Expiry & CVC -->
+                <div class="form-row-double">
+                    <div class="form-group">
+                        <label for="expiry">Expiry Date</label>
+                        <input type="text" id="expiry" name="expiry" required placeholder="MM/YY" maxlength="5"
+                            autocomplete="cc-exp" class="apple-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="cvc">CVC Security</label>
+                        <input type="password" id="cvc" name="cvc" required placeholder="•••" maxlength="4"
+                            autocomplete="cc-csc" class="apple-input">
+                    </div>
+                </div>
+
+                <!-- Client-side Custom Error Banner -->
+                <div id="paymentError" class="payment-error hidden"></div>
+
+                <!-- Premium Animated Submit Button -->
+                <button type="submit" id="paySubmitBtn" class="pay-submit-btn">
+                    <span class="btn-text">Authorize Settle</span>
+                    <div class="btn-loader hidden">
+                        <span class="spinner-dot"></span>
+                        <span class="spinner-dot"></span>
+                        <span class="spinner-dot"></span>
+                    </div>
+                </button>
+            </form>
+        </div>
+    </div>
+
+</div>
+</div>

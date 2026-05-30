@@ -1,0 +1,167 @@
+<style>
+/* ==========================================================================
+   LOGIN PAGE DARK 3D OVERRIDE
+   ========================================================================== */
+body {
+    background-color: #050505 !important;
+    color: #ffffff !important;
+}
+.main-content {
+    background-color: transparent !important;
+    margin-top: 0 !important;
+}
+
+.global-header {
+    background-color: rgba(5, 5, 5, 0.6) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+.header-logo, .header-nav a, .menu-toggle { color: #ffffff !important; }
+
+/* Enhanced Form Overrides */
+.apple-form {
+    background: rgba(15, 15, 15, 0.7) !important;
+    backdrop-filter: blur(40px) !important;
+    -webkit-backdrop-filter: blur(40px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 32px !important;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.8), inset 0 1px 0 rgba(255,255,255,0.1) !important;
+}
+.apple-input {
+    background: rgba(255,255,255,0.03) !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+    color: #fff !important;
+    border-radius: 12px !important;
+    padding: 16px !important;
+}
+.apple-input:focus {
+    background: rgba(255,255,255,0.08) !important;
+    border-color: rgba(255,255,255,0.3) !important;
+    box-shadow: 0 0 15px rgba(255,255,255,0.1) !important;
+}
+.submit-btn {
+    background: linear-gradient(135deg, #ffffff, #dcdcdc) !important;
+    color: #000 !important;
+    border-radius: 980px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 15px 30px rgba(255,255,255,0.15) !important;
+}
+.submit-btn:hover { box-shadow: 0 20px 40px rgba(255,255,255,0.25) !important; transform: scale(1.02); }
+
+@media (max-width: 768px) {
+    /* Dark-theme responsive menu override */
+    .header-nav {
+        background-color: #050505 !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+    }
+    .nav-link {
+        color: #ffffff !important;
+        font-size: 18px;
+    }
+    .nav-link-cta {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .apple-form {
+        padding: 36px 24px !important;
+    }
+}
+</style>
+
+<section class="hero-immersive" style="height: 100vh; display: flex; align-items: center; justify-content: center;">
+    <div class="hero-bg-wrapper">
+        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2000" alt="Login Background" class="hero-bg-img" style="filter: brightness(0.4);">
+        <div class="hero-overlay" style="background: radial-gradient(circle, transparent, rgba(0,0,0,0.9));"></div>
+    </div>
+
+    <div class="login-container 3d-tilt" style="position: relative; z-index: 10; width: 100%; max-width: 480px; margin: 0 24px;">
+        
+        <!-- Frosted Glass Form Container -->
+        <div class="apple-form" style="padding: 56px 48px; color: #fff;">
+            
+            <div style="text-align: center; margin-bottom: 32px;">
+                <h2 style="font-size: 28px; font-weight: 600; margin-bottom: 8px;">Welcome Back.</h2>
+                <p style="font-size: 14px; color: rgba(255,255,255,0.8);">Enter your credentials to access your private itinerary.</p>
+            </div>
+
+            <!-- Inline Error Messages -->
+            <% if (error) { %>
+                <div class="error-container" id="loginError" style="background: rgba(255, 59, 48, 0.2); color: #ffb3b0; border: 1px solid rgba(255, 59, 48, 0.5); margin-top: -10px; margin-bottom: 24px;">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    <span>
+                        <%= error %>
+                    </span>
+                </div>
+            <% } %>
+
+            <!-- Login Input Form -->
+            <form action="/login" method="POST" id="loginForm">
+                <!-- Name Input Field -->
+                <div class="form-group">
+                    <label for="name" style="color: rgba(255,255,255,0.9);">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="E.g., Julian Vance" required autocomplete="name"
+                        class="apple-input" style="background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.2); color: #fff;">
+                </div>
+
+                <!-- Email Input Field -->
+                <div class="form-group" style="margin-bottom: 32px;">
+                    <label for="email" style="color: rgba(255,255,255,0.9);">Gmail Address</label>
+                    <input type="email" id="email" name="email" placeholder="name@gmail.com" required autocomplete="email"
+                        class="apple-input" style="background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.2); color: #fff;">
+                    <p class="input-hint" style="color: rgba(255,255,255,0.6);">We will dispatch your formal welcome itinerary to this address.</p>
+                </div>
+
+                <!-- Solid White Action Button -->
+                <button type="submit" class="submit-btn" style="background: #fff; color: #000; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
+                    <span>Continue</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </form>
+
+            <div class="login-footer" style="color: rgba(255,255,255,0.5); border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px; margin-top: 24px;">
+                <p>Your privacy is paramount. We secure all personal credentials following top-tier encryption frameworks.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Include 3D Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const tiltElements = document.querySelectorAll('.3d-tilt');
+        tiltElements.forEach(element => {
+            const maxTilt = 5;
+            const perspective = 1200;
+            const scale = 1.02;
+
+            element.addEventListener('mousemove', (e) => {
+                const rect = element.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = ((y - centerY) / centerY) * -maxTilt; 
+                const rotateY = ((x - centerX) / centerX) * maxTilt;
+                
+                element.style.transform = `perspective(${perspective}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(${scale}, ${scale}, ${scale})`;
+                element.style.transition = 'transform 0.1s ease-out';
+            });
+            
+            element.addEventListener('mouseleave', () => {
+                element.style.transform = `perspective(${perspective}px) rotateX(0) rotateY(0) scale3d(1, 1, 1)`;
+                element.style.transition = 'transform 0.5s cubic-bezier(0.25, 1, 0.5, 1)';
+            });
+        });
+    });
+</script>

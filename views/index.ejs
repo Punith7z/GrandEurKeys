@@ -1,0 +1,425 @@
+<style>
+/* ==========================================================================
+   HOMEPAGE: PREMIUM HOTEL BOOKING EXPERIENCE
+   ========================================================================== */
+body {
+    background-color: #050505 !important;
+    color: #ffffff !important;
+    overflow-x: hidden;
+}
+
+.main-content {
+    background-color: transparent !important;
+    margin-top: 0 !important;
+}
+
+.global-header {
+    background-color: rgba(5, 5, 5, 0.6) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+.header-logo, .header-nav a, .menu-toggle {
+    color: #ffffff !important;
+}
+
+/* --- 1. IMMERSIVE HERO WITH BOOKING BAR --- */
+.hero-booking {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(0.6) contrast(1.1);
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(5,5,5,1) 100%);
+    z-index: 1;
+}
+
+.hero-content-wrapper {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-top: -100px;
+}
+
+.hero-title {
+    font-size: 5rem;
+    font-weight: 300;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+    color: #fff;
+    text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 60px;
+}
+
+/* --- THE BOOKING SEARCH BAR --- */
+.booking-search-bar {
+    background: rgba(15, 15, 15, 0.7);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 980px;
+    padding: 12px 12px 12px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 24px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    flex: 1;
+}
+.search-field:last-of-type { border-right: none; }
+
+.search-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 4px;
+}
+
+.search-input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    width: 100%;
+    font-family: inherit;
+}
+.search-input::placeholder { color: rgba(255,255,255,0.3); }
+.search-input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(1); cursor: pointer; }
+
+.search-btn {
+    background: linear-gradient(135deg, #00ff88, #00b35f);
+    color: #000;
+    border: none;
+    border-radius: 980px;
+    padding: 16px 32px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    margin-left: 16px;
+}
+.search-btn:hover { box-shadow: 0 10px 30px rgba(0,255,136,0.4); transform: scale(1.02); }
+
+/* --- 2. DESTINATIONS GRID --- */
+.destinations-section {
+    position: relative;
+    z-index: 10;
+    padding: 80px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 48px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.section-subtitle {
+    color: rgba(255,255,255,0.5);
+    font-size: 15px;
+}
+
+.view-all-link {
+    color: #00ff88;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.dest-card {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    height: 400px;
+    cursor: pointer;
+    background: #111;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.dest-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.dest-card:hover .dest-img { transform: scale(1.08); }
+
+.dest-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 32px 32px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, transparent 100%);
+}
+
+.dest-name { font-size: 24px; font-weight: 400; margin-bottom: 4px; }
+.dest-props { font-size: 13px; color: rgba(255,255,255,0.6); }
+
+/* --- 3. EXCLUSIVE OFFERS / FEATURED HOTELS --- */
+.featured-hotels {
+    padding: 80px 40px 120px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hotel-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.hotel-card {
+    background: rgba(20, 20, 20, 0.8);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.hotel-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+.hc-img-wrapper {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+
+.hc-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.hotel-card:hover .hc-img { transform: scale(1.05); }
+
+.hc-badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    padding: 6px 12px;
+    border-radius: 980px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.hc-content { padding: 20px; }
+.hc-loc { font-size: 12px; color: rgba(255,255,255,0.5); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px;}
+.hc-title { font-size: 18px; font-weight: 500; margin-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hc-rating { font-size: 13px; color: #ffb400; margin-bottom: 16px; display: flex; align-items: center; gap: 4px; }
+.hc-footer { display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 16px; }
+.hc-price { font-size: 18px; font-weight: 600; }
+.hc-price span { font-size: 12px; font-weight: 400; color: rgba(255,255,255,0.4); }
+
+@media (max-width: 1024px) {
+    .destinations-grid { grid-template-columns: repeat(2, 1fr); }
+    .hotel-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+    .booking-search-bar { flex-direction: column; border-radius: 24px; padding: 24px; gap: 16px; }
+    .search-field { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 16px; width: 100%; }
+    .search-btn { width: 100%; margin-left: 0; justify-content: center; }
+    .destinations-grid, .hotel-grid { grid-template-columns: 1fr; }
+    .hero-title { font-size: 2.8rem; }
+    .hero-subtitle { font-size: 1rem; margin-bottom: 40px; }
+    .destinations-section { padding: 40px 16px !important; }
+    .featured-hotels { padding: 40px 16px 80px !important; }
+
+    /* Dark-theme responsive menu override */
+    .header-nav {
+        background-color: #050505 !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+    }
+    .nav-link {
+        color: #ffffff !important;
+        font-size: 18px;
+    }
+    .nav-link-cta {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+    }
+}
+@media (max-width: 480px) {
+    .hero-title { font-size: 2.2rem; }
+    .hero-booking { min-height: 650px; }
+    .booking-search-bar { padding: 20px; }
+}
+</style>
+
+<!-- 1. IMMERSIVE HOTEL HERO -->
+<section class="hero-booking">
+    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2500" class="hero-bg-img" alt="Luxury Hotel Exterior">
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content-wrapper">
+        <h1 class="hero-title">Find Your Perfect Stay.</h1>
+        <p class="hero-subtitle">Discover and book the world's finest hotels and luxury resorts.</p>
+        
+        <!-- Booking Search Bar -->
+        <form class="booking-search-bar" action="/properties" method="GET">
+            <div class="search-field">
+                <label class="search-label">Destination</label>
+                <input type="text" name="location" class="search-input" placeholder="Where are you going?">
+            </div>
+            <div class="search-field">
+                <label class="search-label">Check-In</label>
+                <input type="date" name="checkin" class="search-input">
+            </div>
+            <div class="search-field">
+                <label class="search-label">Check-Out</label>
+                <input type="date" name="checkout" class="search-input">
+            </div>
+            <div class="search-field" style="padding-right: 0;">
+                <label class="search-label">Guests</label>
+                <select name="guests" class="search-input" style="appearance: none; padding-right: 16px;">
+                    <option value="1">1 Guest</option>
+                    <option value="2" selected>2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                </select>
+            </div>
+            <button type="submit" class="search-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                Search
+            </button>
+        </form>
+    </div>
+</section>
+
+<!-- 2. POPULAR DESTINATIONS -->
+<section class="destinations-section">
+    <div class="section-header">
+        <div>
+            <h2 class="section-title">Popular Destinations</h2>
+            <p class="section-subtitle">Explore top-rated locations around the globe.</p>
+        </div>
+    </div>
+    
+    <div class="destinations-grid">
+        <div class="dest-card" onclick="window.location.href='/properties?type=resort'">
+            <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800" class="dest-img" alt="Bali">
+            <div class="dest-overlay">
+                <h3 class="dest-name">Bali, Indonesia</h3>
+                <span class="dest-props">42 Premium Properties</span>
+            </div>
+        </div>
+        <div class="dest-card" onclick="window.location.href='/properties?type=hotel'">
+            <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=800" class="dest-img" alt="New York">
+            <div class="dest-overlay">
+                <h3 class="dest-name">New York, USA</h3>
+                <span class="dest-props">18 Skyline Hotels</span>
+            </div>
+        </div>
+        <div class="dest-card" onclick="window.location.href='/properties'">
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800" class="dest-img" alt="Taj Mahal">
+            <div class="dest-overlay">
+                <h3 class="dest-name">Udaipur, India</h3>
+                <span class="dest-props">24 Heritage Palaces</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 3. TRENDING HOTELS -->
+<section class="featured-hotels">
+    <div class="section-header">
+        <div>
+            <h2 class="section-title">Trending Stays</h2>
+            <p class="section-subtitle">Highly-rated hotels curated for your next trip.</p>
+        </div>
+        <a href="/properties" class="view-all-link">View All Properties →</a>
+    </div>
+
+    <div class="hotel-grid">
+        <% featured.forEach(property => { %>
+        <div class="hotel-card" onclick="location.href='/properties/<%= property.id %>'">
+            <div class="hc-img-wrapper">
+                <img src="<%= property.primaryImage %>" alt="<%= property.name %>" class="hc-img" loading="lazy">
+                <div class="hc-badge"><%= property.type %></div>
+            </div>
+            <div class="hc-content">
+                <div class="hc-loc"><%= property.location %></div>
+                <h3 class="hc-title"><%= property.name %></h3>
+                <div class="hc-rating">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    <span><%= property.rating %> Exceptional</span>
+                </div>
+                <div class="hc-footer">
+                    <div class="hc-price"><%= formatCurrency(property.pricePerNight) %> <span>/ night</span></div>
+                </div>
+            </div>
+        </div>
+        <% }) %>
+    </div>
+</section>

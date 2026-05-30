@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%- typeof title !== 'undefined' ? title : 'Grandeur Keys' %></title>
+    <meta name="description" content="Exclusive luxury properties and curated stays worldwide.">
+    <!-- Premium Geometric Font Stack (Clean Apple-like editorial style) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to our Master Apple-Theme CSS (Resolved absolutely to support nested routes) -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- 1. Navigation Header (Shared across all pages) -->
+    <%- include('partials/header') %>
+    
+    <!-- 2. Dynamic Body Slot (Specific views will automatically inject here) -->
+    <main class="main-content">
+        <%- body %>
+    </main>
+
+    <!-- 3. Floating AI Chatbot Assistant (Stays open during user browse session) -->
+    <%- include('partials/chatbot') %>
+
+    <!-- 4. Shared Footer -->
+    <%- include('partials/footer') %>
+
+    <!-- Global Client JS triggers -->
+    <script src="/js/main.js"></script>
+    <script src="/js/chatbot-ui.js"></script>
+    <script src="/js/chat.js"></script>
+</body>
+</html>

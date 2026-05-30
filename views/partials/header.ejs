@@ -1,0 +1,36 @@
+<header class="global-header">
+    <div class="header-container">
+        <!-- Brand Logo -->
+        <a href="/" class="header-logo" style="display: flex; align-items: center; gap: 8px; font-size: 22px; font-weight: 700; letter-spacing: -0.5px; text-decoration: none;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: #00ff88;">
+                <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+            </svg>
+            <span style="background: linear-gradient(135deg, #ffffff, #a0a0a0); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Grandeur Keys</span>
+        </a>
+
+        <!-- Responsive Mobile Menu Toggle -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <nav class="header-nav" id="headerNav">
+            <ul class="nav-list">
+                <li><a href="/" class="nav-link">Overview</a></li>
+                <li><a href="/properties?type=hotel" class="nav-link">Hotels</a></li>
+                <li><a href="/properties?type=resort" class="nav-link">Resorts</a></li>
+
+                <!-- Dynamic Session-Based Link -->
+                <% if (user) { %>
+                    <li class="nav-user-profile">
+                        <span class="nav-welcome">Hello, <%= user.name %></span>
+                        <a href="/logout" class="nav-link sign-out-btn">Sign Out</a>
+                    </li>
+                <% } else { %>
+                    <li><a href="/login" class="nav-link nav-link-cta">Sign In</a></li>
+                <% } %>
+            </ul>
+        </nav>
+    </div>
+</header>

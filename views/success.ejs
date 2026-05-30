@@ -1,0 +1,99 @@
+<!-- Animated Editorial Checkmark -->
+<div class="success-icon-wrapper">
+    <div class="success-circle">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round" class="checkmark">
+            <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+    </div>
+</div>
+
+<!-- Success Copywriting -->
+<header class="success-header">
+    <span class="success-eyebrow">Residency Confirmed</span>
+    <h1 class="success-headline">Your journey is secured.</h1>
+    <p class="success-subhead">Welcome to Grandeur Keys. We have authorized your settlement and reserved your private
+        residency segments. A formal itinerary outline has been drafted for you.</p>
+</header>
+
+<!-- Dynamic Invoice Receipt Grid -->
+<div class="receipt-card">
+    <div class="receipt-header">
+        <div class="receipt-meta-item">
+            <span class="meta-label">Confirmation Code</span>
+            <span class="meta-value highlight">
+                <%= order.confirmationNumber %>
+            </span>
+        </div>
+        <div class="receipt-meta-item">
+            <span class="meta-label">Date Settled</span>
+            <span class="meta-value">
+                <%= new Date(order.transactionDate).toLocaleDateString('en-US', { month: 'long' , day: 'numeric' ,
+                    year: 'numeric' }) %>
+            </span>
+        </div>
+        <div class="receipt-meta-item">
+            <span class="meta-label">Registered Guest</span>
+            <span class="meta-value">
+                <%= order.customer.name %>
+            </span>
+        </div>
+    </div>
+
+    <!-- Itemized Itinerary Summary -->
+    <div class="receipt-body">
+        <h3 class="receipt-title">Reserved Segments</h3>
+        <div class="receipt-segments">
+            <% order.cart.forEach((segment, index)=> { %>
+                <div class="receipt-segment-row">
+                    <div class="segment-bullet-num">0<%= index + 1 %>
+                    </div>
+                    <div class="segment-receipt-details">
+                        <h4 class="receipt-prop-name">
+                            <%= segment.propertyName %>
+                        </h4>
+                        <p class="receipt-prop-location">
+                            <%= segment.location %> — <%= segment.totalNights %>
+                                    <%= segment.totalNights===1 ? 'Night' : 'Nights' %> (<%= new
+                                            Date(segment.checkIn).toLocaleDateString('en-US', { month: 'short' ,
+                                            day: 'numeric' }) %> to <%= new
+                                                Date(segment.checkOut).toLocaleDateString('en-US', { month: 'short' ,
+                                                day: 'numeric' }) %>)
+                        </p>
+                    </div>
+                    <div class="segment-receipt-price">
+                        <%= formatCurrency(segment.pricingBreakdown.finalPrice) %>
+                    </div>
+                </div>
+                <% }) %>
+        </div>
+
+        <!-- Settle Ledger Summary -->
+        <div class="receipt-footer">
+            <div class="receipt-total-line">
+                <span class="label">Total Charged (USD)</span>
+                <span class="value">
+                    <%= formatCurrency(order.totalCharged) %>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- AI Concierge Prompt Notice Box -->
+<div class="concierge-activation-box">
+    <div class="activation-content">
+        <h4>✨ Grandeur Concierge Activated</h4>
+        <p>Your digital AI travel companion is now fully synchronized with your booking reservation. Tap the launcher in
+            the bottom right corner and ask <strong>"What amenities do I have at my stops?"</strong> or request custom
+            room modifications.</p>
+    </div>
+</div>
+
+<!-- Call to Action Buttons -->
+<div class="success-actions">
+    <a href="/" class="success-home-btn">Return to Overview</a>
+    <a href="/properties" class="success-browse-btn">Explore Other Destinations</a>
+</div>
+
+</div>

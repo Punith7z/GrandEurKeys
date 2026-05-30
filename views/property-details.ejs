@@ -1,0 +1,273 @@
+<style>
+/* ==========================================================================
+   PROPERTY DETAILS DARK 3D OVERRIDE
+   ========================================================================== */
+body {
+    background-color: #050505 !important;
+    color: #ffffff !important;
+}
+.main-content {
+    background-color: transparent !important;
+    margin-top: 0 !important;
+    padding-top: 80px;
+}
+
+.global-header {
+    background-color: rgba(5, 5, 5, 0.6) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+.header-logo, .header-nav a, .menu-toggle { color: #ffffff !important; }
+
+/* Text Overrides */
+.property-title { color: #fff !important; font-size: 48px !important; letter-spacing: -1px; margin-bottom: 8px; }
+.property-tagline { color: rgba(255,255,255,0.6) !important; font-size: 18px; }
+.editorial-block h2, .amenities-block h2 { color: #fff !important; border-bottom: 1px solid rgba(255,255,255,0.1) !important; padding-bottom: 16px; margin-bottom: 24px; }
+.editorial-block p { color: rgba(255,255,255,0.7) !important; font-size: 15px; line-height: 1.8; }
+.amenity-item { color: rgba(255,255,255,0.8) !important; }
+.bullet-circle { background-color: #00ff88 !important; box-shadow: 0 0 10px rgba(0,255,136,0.5); }
+
+/* Reservation Card Glassmorphism */
+.reservation-card {
+    background: rgba(15, 15, 15, 0.6) !important;
+    backdrop-filter: blur(40px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.8) !important;
+    border-radius: 32px !important;
+    padding: 40px !important;
+    transform-style: preserve-3d;
+}
+.price-eyebrow .amount { color: #fff !important; font-size: 32px; font-weight: 300; }
+.price-eyebrow .unit { color: rgba(255,255,255,0.4) !important; }
+
+/* Form Fields */
+.reservation-form label { color: rgba(255,255,255,0.5) !important; font-size: 12px; letter-spacing: 1px; }
+.reservation-form input, .reservation-form select {
+    background: rgba(255,255,255,0.03) !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+    color: #fff !important;
+    border-radius: 12px !important;
+}
+.reservation-form input:focus, .reservation-form select:focus {
+    border-color: rgba(255,255,255,0.3) !important;
+    background: rgba(255,255,255,0.08) !important;
+}
+
+/* Button */
+.submit-btn {
+    background: linear-gradient(135deg, #ffffff, #dcdcdc) !important;
+    color: #000 !important;
+    border-radius: 12px !important;
+    font-weight: 500 !important;
+    box-shadow: 0 10px 20px rgba(255,255,255,0.1) !important;
+}
+.submit-btn:hover { box-shadow: 0 15px 30px rgba(255,255,255,0.2) !important; }
+
+/* AI Split Card */
+.split-suggestion-card {
+    background: rgba(20, 20, 20, 0.7) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5) !important;
+}
+.split-suggestion-card h3 { color: #fff !important; }
+.split-suggestion-card p { color: rgba(255,255,255,0.6) !important; }
+
+/* Panoramic Image 3D */
+.main-image-frame {
+    border-radius: 32px !important;
+    overflow: hidden;
+    box-shadow: 0 40px 100px rgba(0,0,0,0.8) !important;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+.panoramic-img {
+    filter: brightness(0.8);
+}
+.back-link { color: #fff !important; }
+
+@media (max-width: 768px) {
+    /* Dark-theme responsive menu override */
+    .header-nav {
+        background-color: #050505 !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+    }
+    .nav-link {
+        color: #ffffff !important;
+        font-size: 18px;
+    }
+    .nav-link-cta {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .date-inputs-group {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+</style>
+
+<!-- Back Navigation Button -->
+<div class="back-navigation">
+    <a href="/properties" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        <span>All Properties</span>
+    </a>
+</div>
+
+<!-- Property Editorial Header -->
+<header class="details-header">
+    <div class="header-main">
+        <span class="location-badge">
+            <%= property.airbnbIcon %>
+                <%= property.location %>
+        </span>
+        <h1 class="property-title">
+            <%= property.name %>
+        </h1>
+        <p class="property-tagline">
+            <%= property.tagline %>
+        </p>
+    </div>
+    <div class="header-rating">
+        <div class="rating-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+            </svg>
+            <span>
+                <%= property.rating %> Rating
+            </span>
+        </div>
+    </div>
+</header>
+
+<!-- Main Panoramic Image Gallery -->
+<div class="panoramic-gallery">
+    <div class="main-image-frame">
+        <img src="<%= property.primaryImage %>" alt="<%= property.name %>" class="panoramic-img">
+    </div>
+</div>
+
+<!-- Split Structural Layout -->
+<div class="content-split-grid">
+
+    <!-- Left Side: Editorial Description & Premium Amenities -->
+    <div class="editorial-column">
+        <div class="editorial-block">
+            <h2>The Experience</h2>
+            <p>Designed to exist in absolute harmony with its surrounding environment, this property exemplifies our
+                commitment to high-end architectural geometry and visual tranquility. Every structural line, panoramic
+                vista, and curated surface has been precision-engineered to host your next escape.</p>
+            <p>As a guest of Grandeur Keys, your stay includes personalized customization privileges. Use your dedicated
+                AI Concierge chatbot in the bottom right corner at any time during your residency to request
+                room-temperature shifts, tailored culinary menus, or custom luxury transport transfers.</p>
+        </div>
+
+        <div class="amenities-block">
+            <h2>Bespoke Amenities</h2>
+            <ul class="amenities-list">
+                <% property.amenities.forEach(amenity=> { %>
+                    <li class="amenity-item">
+                        <span class="bullet-circle"></span>
+                        <span class="amenity-text">
+                            <%= amenity %>
+                        </span>
+                    </li>
+                    <% }) %>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Right Side: Sticky Reservation Panel (Dynamic Calculations) -->
+    <div class="reservation-column">
+        <div class="reservation-card">
+            <div class="reservation-header">
+                <div class="price-eyebrow">
+                    <span class="amount">
+                        <%= formatCurrency(property.pricePerNight) %>
+                    </span>
+                    <span class="unit">/ night</span>
+                </div>
+            </div>
+
+            <!-- Custom Interactive Date Form -->
+            <form id="reservationForm" class="reservation-form" data-price="<%= property.pricePerNight %>" data-currency-symbol="<%= formatCurrency(property.pricePerNight).replace(/[0-9.,]/g, '').trim() %>">
+                <input type="hidden" id="propertyId" name="propertyId" value="<%= property.id %>">
+
+                <div class="date-inputs-group">
+                    <!-- Check-In Field -->
+                    <div class="date-field">
+                        <label for="checkIn">Check-In</label>
+                        <input type="date" id="checkIn" name="checkIn" required min="2026-05-30">
+                    </div>
+                    <!-- Check-Out Field -->
+                    <div class="date-field">
+                        <label for="checkOut">Check-Out</label>
+                        <input type="date" id="checkOut" name="checkOut" required min="2026-05-31">
+                    </div>
+                </div>
+
+                <!-- Guest Count Selector -->
+                <div class="form-group">
+                    <label for="guests">Guests</label>
+                    <select id="guests" name="guests" class="apple-select">
+                        <option value="1">1 Guest</option>
+                        <option value="2" selected>2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                    </select>
+                </div>
+
+                <!-- Split Stay Checkbox Option -->
+                <div class="split-stay-toggle-wrapper">
+                    <label class="split-stay-toggle-label">
+                        <input type="checkbox" id="splitStay" name="splitStay" value="true">
+                        <div class="toggle-control-box">
+                            <span class="toggle-title">Configure as Split Stay</span>
+                            <span class="toggle-desc">Combine this stop into a multi-destination itinerary</span>
+                        </div>
+                    </label>
+                </div>
+
+                <!-- Interactive Pricing Tally Summary (Hidden initially) -->
+                <div id="pricingSummary" class="pricing-summary hidden">
+                    <div class="summary-line">
+                        <span id="nightsTally">
+                            <%= formatCurrency(property.pricePerNight) %> x 1 night
+                        </span>
+                        <span id="nightsCost">$0</span>
+                    </div>
+                    <div class="summary-line">
+                        <span>Grandeur Service Fee (8%)</span>
+                        <span id="serviceFee">$0</span>
+                    </div>
+                    <div class="summary-line">
+                        <span>Luxury Lodging Tax (12%)</span>
+                        <span id="taxCost">$0</span>
+                    </div>
+                    <div class="summary-total">
+                        <span>Estimated Total</span>
+                        <span id="totalCost">$0</span>
+                    </div>
+                </div>
+
+                <!-- Error Message Banner -->
+                <div id="bookingError" class="booking-error hidden"></div>
+
+                <!-- Solid CTA Action Button -->
+                <button type="submit" id="reserveBtn" class="reserve-btn">
+                    <span>Reserve Securely</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</div>

@@ -1,0 +1,206 @@
+<style>
+/* ==========================================================================
+   PROPERTIES DIRECTORY DARK 3D OVERRIDE
+   ========================================================================== */
+body {
+    background-color: #050505 !important;
+    color: #ffffff !important;
+}
+.main-content {
+    background-color: transparent !important;
+    margin-top: 0 !important;
+}
+
+.global-header {
+    background-color: rgba(5, 5, 5, 0.6) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+.header-logo, .header-nav a, .menu-toggle { color: #ffffff !important; }
+
+/* Filter Tabs */
+.nav-container {
+    background: rgba(20, 20, 20, 0.7) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px) !important;
+}
+.category-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border-radius: 980px;
+    color: rgba(255,255,255,0.6) !important;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.category-tab.active {
+    background: linear-gradient(135deg, #00ff88, #00b35f) !important;
+    color: #000 !important;
+    box-shadow: 0 10px 20px rgba(0, 255, 136, 0.3) !important;
+}
+.category-tab:hover:not(.active) { color: #fff !important; background: rgba(255,255,255,0.05); }
+
+/* Property Cards Dark Mode */
+.property-card {
+    background: rgba(15, 15, 15, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8) !important;
+    border-radius: 24px !important;
+    overflow: hidden;
+    transform-style: preserve-3d;
+}
+.card-meta {
+    background: transparent !important;
+    color: #fff !important;
+}
+.property-name { color: #fff !important; }
+.property-tagline { color: rgba(255,255,255,0.6) !important; }
+.property-location, .property-rating { color: rgba(255,255,255,0.5) !important; }
+.price-row { border-top: 1px solid rgba(255,255,255,0.05) !important; }
+.property-price strong { color: #fff !important; }
+.reserve-text { color: #00ff88 !important; }
+
+/* Hero text override */
+.hero-headline { color: #fff !important; text-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+.results-count { color: #fff !important; }
+
+@media (max-width: 768px) {
+    /* Dark-theme responsive menu override */
+    .header-nav {
+        background-color: #050505 !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+    }
+    .nav-link {
+        color: #ffffff !important;
+        font-size: 18px;
+    }
+    .nav-link-cta {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+    }
+}
+</style>
+
+<!-- Immersive Directory Header -->
+<section class="hero-immersive" style="height: 60vh; min-height: 400px;">
+    <div class="hero-bg-wrapper">
+        <!-- Add a beautiful hero image specifically for properties -->
+        <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=2000" alt="Directory" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+    </div>
+    
+    <!-- 3D Glass Floating Elements -->
+    <div class="floating-glass-card glass-1 animate-fade-up">
+        <div class="glass-icon-wrapper">
+            <span class="glass-icon">🌍</span>
+        </div>
+        <div class="glass-text">
+            <strong>Global</strong>
+            <span>Destinations</span>
+        </div>
+    </div>
+
+    <div class="hero-content">
+        <h1 class="hero-headline animate-fade-up">The Collection.</h1>
+        <p class="hero-subhead animate-fade-up animate-delay-1">Vetted. Inspected. Perfected.</p>
+    </div>
+</section>
+
+
+
+<!-- Main Properties Grid Section -->
+<section class="listings-section" style="padding-top: 60px;">
+    <div class="listings-container">
+        <!-- Results Counter & Status Summary -->
+        <div class="listings-meta" style="text-align: center; margin-bottom: 40px;">
+            <span class="results-count text-gradient" style="font-size: 18px; font-weight: 500;">Showing <%= properties.length %> exceptional escapes</span>
+        </div>
+
+        <!-- Dynamic Property Grid -->
+        <% if (properties.length> 0) { %>
+            <div class="listings-grid">
+                <% properties.forEach(property=> { %>
+                    <div class="property-card 3d-tilt" onclick="location.href='/properties/<%= property.id %>'">
+                        <div class="card-image-wrapper">
+                            <img src="<%= property.primaryImage %>" alt="<%= property.name %>" class="card-image"
+                                loading="lazy">
+                            <span class="card-badge">
+                                <%= property.airbnbIcon %> <%= property.type.toUpperCase() %>
+                            </span>
+                        </div>
+                        <div class="card-meta">
+                            <div class="meta-row">
+                                <span class="property-location">
+                                    <%= property.location %>
+                                </span>
+                                <span class="property-rating">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                        </polygon>
+                                    </svg>
+                                    <%= property.rating %>
+                                </span>
+                            </div>
+                            <h3 class="property-name">
+                                <%= property.name %>
+                            </h3>
+                            <p class="property-tagline">
+                                <%= property.tagline %>
+                            </p>
+                            <div class="price-row">
+                                <span class="property-price"><strong>
+                                        <%= formatCurrency(property.pricePerNight) %>
+                                    </strong> / night</span>
+                                <span class="reserve-text">Reserve →</span>
+                            </div>
+                        </div>
+                    </div>
+                    <% }) %>
+            </div>
+            <% } else { %>
+                <!-- Elegant Empty Search State -->
+                <div class="empty-state 3d-tilt">
+                    <span class="empty-icon">📂</span>
+                    <h2 class="text-gradient">No Curated Escapes Found</h2>
+                    <p>We are currently vetting properties matching this precise description. Please explore our alternative skyline hotels or secluded island escapes.</p>
+                    <a href="/properties" class="empty-cta 3d-btn">View All Destinations</a>
+                </div>
+            <% } %>
+    </div>
+</section>
+
+<!-- Include 3D Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const tiltElements = document.querySelectorAll('.3d-tilt, .3d-tilt-extreme');
+        tiltElements.forEach(element => {
+            const isExtreme = element.classList.contains('3d-tilt-extreme');
+            const maxTilt = isExtreme ? 15 : 5;
+            const perspective = isExtreme ? 800 : 1200;
+            const scale = isExtreme ? 1.05 : 1.02;
+
+            element.addEventListener('mousemove', (e) => {
+                const rect = element.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = ((y - centerY) / centerY) * -maxTilt; 
+                const rotateY = ((x - centerX) / centerX) * maxTilt;
+                
+                element.style.transform = `perspective(${perspective}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(${scale}, ${scale}, ${scale})`;
+                element.style.transition = 'transform 0.1s ease-out';
+                element.style.zIndex = '10';
+            });
+            
+            element.addEventListener('mouseleave', () => {
+                element.style.transform = `perspective(${perspective}px) rotateX(0) rotateY(0) scale3d(1, 1, 1)`;
+                element.style.transition = 'transform 0.5s cubic-bezier(0.25, 1, 0.5, 1)';
+                element.style.zIndex = '1';
+            });
+        });
+    });
+</script>
