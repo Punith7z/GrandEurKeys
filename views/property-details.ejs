@@ -197,6 +197,20 @@ body {
             </div>
 
             <!-- Custom Interactive Date Form -->
+            <% 
+              const today = new Date();
+              const yyyy = today.getFullYear();
+              const mm = String(today.getMonth() + 1).padStart(2, '0');
+              const dd = String(today.getDate()).padStart(2, '0');
+              const minCheckIn = `${yyyy}-${mm}-${dd}`;
+              
+              const tomorrow = new Date(today);
+              tomorrow.setDate(tomorrow.getDate() + 1);
+              const tom_yyyy = tomorrow.getFullYear();
+              const tom_mm = String(tomorrow.getMonth() + 1).padStart(2, '0');
+              const tom_dd = String(tomorrow.getDate()).padStart(2, '0');
+              const minCheckOut = `${tom_yyyy}-${tom_mm}-${tom_dd}`;
+            %>
             <form id="reservationForm" class="reservation-form" data-price="<%= property.pricePerNight %>" data-currency-symbol="<%= formatCurrency(property.pricePerNight).replace(/[0-9.,]/g, '').trim() %>">
                 <input type="hidden" id="propertyId" name="propertyId" value="<%= property.id %>">
 
@@ -204,12 +218,12 @@ body {
                     <!-- Check-In Field -->
                     <div class="date-field">
                         <label for="checkIn">Check-In</label>
-                        <input type="date" id="checkIn" name="checkIn" required min="2026-05-30">
+                        <input type="date" id="checkIn" name="checkIn" required min="<%= minCheckIn %>" value="<%= searchParams.checkin %>">
                     </div>
                     <!-- Check-Out Field -->
                     <div class="date-field">
                         <label for="checkOut">Check-Out</label>
-                        <input type="date" id="checkOut" name="checkOut" required min="2026-05-31">
+                        <input type="date" id="checkOut" name="checkOut" required min="<%= minCheckOut %>" value="<%= searchParams.checkout %>">
                     </div>
                 </div>
 
@@ -217,10 +231,10 @@ body {
                 <div class="form-group">
                     <label for="guests">Guests</label>
                     <select id="guests" name="guests" class="apple-select">
-                        <option value="1">1 Guest</option>
-                        <option value="2" selected>2 Guests</option>
-                        <option value="3">3 Guests</option>
-                        <option value="4">4 Guests</option>
+                        <option value="1" <%= searchParams.guests === '1' ? 'selected' : '' %>>1 Guest</option>
+                        <option value="2" <%= searchParams.guests === '2' || !searchParams.guests ? 'selected' : '' %>>2 Guests</option>
+                        <option value="3" <%= searchParams.guests === '3' ? 'selected' : '' %>>3 Guests</option>
+                        <option value="4" <%= searchParams.guests === '4' ? 'selected' : '' %>>4 Guests</option>
                     </select>
                 </div>
 

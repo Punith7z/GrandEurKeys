@@ -1,1877 +1,3911 @@
 {
   "properties": [
     {
-      "id": "gk-prop-01",
-      "name": "The Obsidian Pavilion",
+      "id": "gk-prop-1",
+      "name": "The Imperial Delhi",
       "type": "hotel",
-      "tagline": "Monolithic glass design meets urban sanctuary.",
-      "location": "Tokyo, Japan",
-      "pricePerNight": 850,
-      "rating": 4.92,
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Delhi, India",
+      "pricePerNight": 429,
+      "rating": 4.95,
       "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
       "airbnbIcon": "🏢",
       "amenities": [
-        "24/7 Elite Concierge",
-        "Helipad & Lounge Access",
-        "Heated Rooftop Infinity Pool",
-        "Integrated Home Automations",
-        "Two Michelin Star Dining Rooms",
-        "EV Charging Station"
-      ]
-    },
-    {
-      "id": "gk-prop-02",
-      "name": "Amanpuri Whispers",
-      "type": "resort",
-      "tagline": "Secluded cliffside villas overlooking clear lagoons.",
-      "location": "Phuket, Thailand",
-      "pricePerNight": 1250,
-      "rating": 4.98,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private White Sand Lagoon",
-        "Open-Air Relaxation Pavilions",
-        "Ancient Thai Wellness Spa",
-        "Personal Chef & Butler",
-        "Deep Sea Private Yacht Charter"
-      ]
-    },
-    {
-      "id": "gk-prop-03",
-      "name": "The Lumina Crest",
-      "type": "hotel",
-      "tagline": "Breathtaking floor-to-ceiling vistas above the metropolitan clouds.",
-      "location": "New York, USA",
-      "pricePerNight": 920,
-      "rating": 4.89,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Private Skylight Observation Deck",
         "Sommelier-Stocked Wine Vault",
-        "Automated Robotic Valet",
-        "In-Suite Peloton Studio",
+        "Bespoke Butler Service",
+        "Sky Deck Observation Lounge",
+        "Integrated Home Automations",
         "Pre-stocked Espresso Bar"
-      ]
+      ],
+      "isFeatured": true
     },
     {
-      "id": "gk-prop-04",
-      "name": "Elysian Valley Canopy",
-      "type": "resort",
-      "tagline": "Eco-villas floating seamlessly over lush emerald rainforests.",
-      "location": "Bali, Inxdonesia",
-      "pricePerNight": 1100,
-      "rating": 4.95,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "id": "gk-prop-2",
+      "name": "The Leela Palace Delhi",
+      "type": "hotel",
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Delhi, India",
+      "pricePerNight": 398,
+      "rating": 4.83,
+      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "airbnbIcon": "🏨",
       "amenities": [
-        "Private Volcanic Stone Plunge Pool",
-        "Outdoor Rainfall Showers",
-        "Ayurvedic Yoga Pavilion",
-        "Guided Canopy Walks",
-        "Personal Host & Chauffeur"
-      ]
+        "Private Beach / Lagoon Access",
+        "Helipad & Lounge Access",
+        "Heated Infinity Pool",
+        "Sky Deck Observation Lounge",
+        "Integrated Home Automations",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-3",
+      "name": "Taj Palace Delhi",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Delhi, India",
+      "pricePerNight": 328,
+      "rating": 4.77,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Heated Infinity Pool",
+        "EV Charging Station",
+        "Pre-stocked Espresso Bar",
+        "Sommelier-Stocked Wine Vault",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-4",
+      "name": "The Lodhi Delhi",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Delhi, India",
+      "pricePerNight": 368,
+      "rating": 4.64,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "EV Charging Station",
+        "Bespoke Butler Service",
+        "Michelin Star Dining",
+        "Pre-stocked Espresso Bar",
+        "Personal Chef & Host",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-5",
-      "name": "Ritz-Carlton Heritage Retreat",
+      "name": "The Oberoi Delhi",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Munnar, Kerala",
-      "pricePerNight": 526,
-      "rating": 4.9,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Delhi, India",
+      "pricePerNight": 456,
+      "rating": 4.65,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
       "airbnbIcon": "🏢",
       "amenities": [
-        "Automated Robotic Valet",
-        "Private Chauffeur Service",
-        "Sommelier-Stocked Wine Vault",
-        "Bespoke Butler Service",
-        "EV Charging Station"
-      ]
+        "Sky Deck Observation Lounge",
+        "EV Charging Station",
+        "Helipad & Lounge Access",
+        "Outdoor Rainfall Showers",
+        "Heated Infinity Pool",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-6",
-      "name": "JW Marriott Boutique Oasis",
+      "name": "Shangri-La Eros Delhi",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Chennai, Tamil Nadu",
-      "pricePerNight": 441,
-      "rating": 4.52,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Delhi, India",
+      "pricePerNight": 586,
+      "rating": 4.67,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
       "amenities": [
         "Bespoke Butler Service",
-        "Private Chauffeur Service",
-        "Pre-stocked Espresso Bar",
-        "Helipad & Lounge Access",
-        "Sommelier-Stocked Wine Vault"
-      ]
+        "Michelin Star Dining",
+        "Integrated Home Automations",
+        "Outdoor Rainfall Showers",
+        "Sommelier-Stocked Wine Vault",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-7",
-      "name": "The Imperial Luxury Haven",
+      "name": "JW Marriott Delhi Aerocity",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Mumbai, Maharashtra",
-      "pricePerNight": 530,
-      "rating": 4.83,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Delhi, India",
+      "pricePerNight": 454,
+      "rating": 4.81,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
       "amenities": [
-        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Pre-stocked Espresso Bar",
+        "Heated Infinity Pool",
+        "Ancient Ayurvedic Wellness Spa",
         "Integrated Home Automations",
-        "Automated Robotic Valet",
-        "Private Chauffeur Service",
-        "Helipad & Lounge Access"
-      ]
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-8",
-      "name": "Ritz-Carlton Luxury Sanctuary",
+      "name": "Andaz Delhi",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Udaipur, Rajasthan",
-      "pricePerNight": 574,
-      "rating": 4.52,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Delhi, India",
+      "pricePerNight": 550,
+      "rating": 4.59,
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
       "amenities": [
-        "Executive Boardroom",
-        "Two Michelin Star Dining Rooms",
-        "Automated Robotic Valet",
+        "Private Chauffeur Service",
         "Bespoke Butler Service",
-        "Pre-stocked Espresso Bar"
-      ]
+        "Ancient Ayurvedic Wellness Spa",
+        "Helipad & Lounge Access",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-9",
-      "name": "JW Marriott Grand Oasis",
+      "name": "Roseate House Delhi",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Manali, Himachal Pradesh",
-      "pricePerNight": 743,
-      "rating": 4.71,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Delhi, India",
+      "pricePerNight": 365,
+      "rating": 4.56,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
       "airbnbIcon": "🏢",
       "amenities": [
-        "Helipad & Lounge Access",
-        "Executive Boardroom",
+        "EV Charging Station",
+        "Private Beach / Lagoon Access",
+        "Private Chauffeur Service",
+        "Heated Infinity Pool",
         "Sommelier-Stocked Wine Vault",
-        "Pre-stocked Espresso Bar",
-        "Private Chauffeur Service"
-      ]
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-10",
-      "name": "The Imperial Grand Retreat",
+      "name": "ITC Maurya Delhi",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Kerala, India",
-      "pricePerNight": 652,
-      "rating": 4.74,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Delhi, India",
+      "pricePerNight": 618,
+      "rating": 4.54,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
       "amenities": [
-        "Integrated Home Automations",
-        "Bespoke Butler Service",
-        "Executive Boardroom",
-        "24/7 Elite Concierge",
-        "Sommelier-Stocked Wine Vault"
-      ]
+        "Michelin Star Dining",
+        "Heated Infinity Pool",
+        "Private Chauffeur Service",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Beach / Lagoon Access",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-11",
-      "name": "The Imperial Exquisite Estate",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Bengaluru, Karnataka",
-      "pricePerNight": 904,
-      "rating": 4.73,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "name": "The Grand Resort Delhi",
+      "type": "resort",
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Delhi, India",
+      "pricePerNight": 979,
+      "rating": 4.66,
+      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
+      "airbnbIcon": "🏝️",
       "amenities": [
-        "24/7 Elite Concierge",
-        "Sommelier-Stocked Wine Vault",
-        "Two Michelin Star Dining Rooms",
-        "Helipad & Lounge Access",
-        "Integrated Home Automations"
-      ]
+        "Private Beach / Lagoon Access",
+        "Bespoke Butler Service",
+        "Outdoor Rainfall Showers",
+        "Heated Infinity Pool",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": true
     },
     {
       "id": "gk-prop-12",
-      "name": "Taj Boutique Pavilion",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Manali, Himachal Pradesh",
-      "pricePerNight": 847,
-      "rating": 4.96,
+      "name": "The Westin Sohna Resort & Spa",
+      "type": "resort",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Delhi, India",
+      "pricePerNight": 388,
+      "rating": 4.93,
       "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "airbnbIcon": "🌅",
       "amenities": [
+        "Private Volcanic Plunge Pool",
+        "Pre-stocked Espresso Bar",
+        "Sky Deck Observation Lounge",
         "24/7 Elite Concierge",
-        "Integrated Home Automations",
-        "Two Michelin Star Dining Rooms",
-        "Helipad & Lounge Access",
-        "Automated Robotic Valet"
-      ]
+        "EV Charging Station"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-13",
-      "name": "Trident Exquisite Residences",
+      "name": "Heritage Village Resort Manesar",
+      "type": "resort",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Delhi, India",
+      "pricePerNight": 493,
+      "rating": 4.63,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Outdoor Rainfall Showers",
+        "Personal Chef & Host",
+        "Integrated Home Automations",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-14",
+      "name": "Karma Lakelands Golf Resort",
+      "type": "resort",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Delhi, India",
+      "pricePerNight": 676,
+      "rating": 4.77,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Heated Infinity Pool",
+        "Michelin Star Dining",
+        "Private Beach / Lagoon Access",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-15",
+      "name": "The Roseate Delhi Resort",
+      "type": "resort",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Delhi, India",
+      "pricePerNight": 836,
+      "rating": 4.96,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Chauffeur Service",
+        "24/7 Elite Concierge",
+        "Integrated Home Automations",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-16",
+      "name": "Golden Turtle Farm Retreat",
+      "type": "resort",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Delhi, India",
+      "pricePerNight": 463,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "24/7 Elite Concierge",
+        "Sommelier-Stocked Wine Vault",
+        "Michelin Star Dining",
+        "Private Beach / Lagoon Access",
+        "Integrated Home Automations"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-17",
+      "name": "Surjivan Eco Resort",
+      "type": "resort",
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Delhi, India",
+      "pricePerNight": 502,
+      "rating": 4.82,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Outdoor Rainfall Showers",
+        "Personal Chef & Host",
+        "Sommelier-Stocked Wine Vault",
+        "Private Chauffeur Service",
+        "Private Volcanic Plunge Pool",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-18",
+      "name": "Botanix Nature Resort",
+      "type": "resort",
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Delhi, India",
+      "pricePerNight": 366,
+      "rating": 4.69,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Pre-stocked Espresso Bar",
+        "Helipad & Lounge Access",
+        "Private Chauffeur Service",
+        "Heated Infinity Pool",
+        "Private Volcanic Plunge Pool",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-19",
+      "name": "Best Western Resort Country Club",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Delhi, India",
+      "pricePerNight": 570,
+      "rating": 4.79,
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Personal Chef & Host",
+        "Integrated Home Automations",
+        "Outdoor Rainfall Showers",
+        "Pre-stocked Espresso Bar",
+        "EV Charging Station"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-20",
+      "name": "Aravali Luxury Retreat",
+      "type": "resort",
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Delhi, India",
+      "pricePerNight": 543,
+      "rating": 4.9,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Bespoke Butler Service",
+        "Ancient Ayurvedic Wellness Spa",
+        "Sommelier-Stocked Wine Vault",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-21",
+      "name": "The Taj Mahal Palace",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Agra, Uttar Pradesh",
-      "pricePerNight": 431,
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Mumbai, India",
+      "pricePerNight": 308,
+      "rating": 4.64,
+      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Pre-stocked Espresso Bar",
+        "Sky Deck Observation Lounge",
+        "Private Chauffeur Service",
+        "Integrated Home Automations",
+        "Michelin Star Dining",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "gk-prop-22",
+      "name": "The Oberoi Mumbai",
+      "type": "hotel",
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Mumbai, India",
+      "pricePerNight": 511,
+      "rating": 4.57,
+      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Sky Deck Observation Lounge",
+        "Private Beach / Lagoon Access",
+        "Pre-stocked Espresso Bar",
+        "24/7 Elite Concierge",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-23",
+      "name": "The St. Regis Mumbai",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Mumbai, India",
+      "pricePerNight": 535,
+      "rating": 4.78,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Private Volcanic Plunge Pool",
+        "Sky Deck Observation Lounge",
+        "24/7 Elite Concierge",
+        "Integrated Home Automations",
+        "Private Chauffeur Service",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-24",
+      "name": "Soho House Mumbai",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Mumbai, India",
+      "pricePerNight": 437,
+      "rating": 4.8,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Beach / Lagoon Access",
+        "24/7 Elite Concierge",
+        "Heated Infinity Pool",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-25",
+      "name": "Trident Bandra Kurla",
+      "type": "hotel",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Mumbai, India",
+      "pricePerNight": 704,
+      "rating": 4.58,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Personal Chef & Host",
+        "Heated Infinity Pool",
+        "Ancient Ayurvedic Wellness Spa",
+        "Helipad & Lounge Access",
+        "Integrated Home Automations"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-26",
+      "name": "JW Marriott Mumbai Sahar",
+      "type": "hotel",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Mumbai, India",
+      "pricePerNight": 706,
+      "rating": 4.8,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Pre-stocked Espresso Bar",
+        "Personal Chef & Host",
+        "Sommelier-Stocked Wine Vault",
+        "EV Charging Station",
+        "Private Volcanic Plunge Pool",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-27",
+      "name": "Four Seasons Hotel Mumbai",
+      "type": "hotel",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Mumbai, India",
+      "pricePerNight": 521,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Michelin Star Dining",
+        "Sommelier-Stocked Wine Vault",
+        "24/7 Elite Concierge",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Volcanic Plunge Pool",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-28",
+      "name": "The Leela Mumbai",
+      "type": "hotel",
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Mumbai, India",
+      "pricePerNight": 725,
+      "rating": 4.68,
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Outdoor Rainfall Showers",
+        "Sky Deck Observation Lounge",
+        "Private Volcanic Plunge Pool",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-29",
+      "name": "Taj Lands End",
+      "type": "hotel",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Mumbai, India",
+      "pricePerNight": 559,
+      "rating": 4.62,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Bespoke Butler Service",
+        "Michelin Star Dining",
+        "Ancient Ayurvedic Wellness Spa",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-30",
+      "name": "InterContinental Marine Drive",
+      "type": "hotel",
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Mumbai, India",
+      "pricePerNight": 333,
+      "rating": 4.7,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Pre-stocked Espresso Bar",
+        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Integrated Home Automations",
+        "EV Charging Station"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-31",
+      "name": "Della Resorts Lonavala",
+      "type": "resort",
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Mumbai, India",
+      "pricePerNight": 688,
+      "rating": 4.75,
+      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Personal Chef & Host",
+        "Heated Infinity Pool",
+        "Ancient Ayurvedic Wellness Spa",
+        "Outdoor Rainfall Showers",
+        "EV Charging Station",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "gk-prop-32",
+      "name": "The Machan Eco Resort",
+      "type": "resort",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Mumbai, India",
+      "pricePerNight": 543,
+      "rating": 4.83,
+      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Private Beach / Lagoon Access",
+        "Heated Infinity Pool",
+        "Sky Deck Observation Lounge",
+        "Pre-stocked Espresso Bar",
+        "Helipad & Lounge Access",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-33",
+      "name": "Hilton Shillim Estate Retreat & Spa",
+      "type": "resort",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Mumbai, India",
+      "pricePerNight": 840,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Michelin Star Dining",
+        "Integrated Home Automations",
+        "Private Volcanic Plunge Pool",
+        "Heated Infinity Pool",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-34",
+      "name": "Radisson Resort Lonavala",
+      "type": "resort",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Mumbai, India",
+      "pricePerNight": 861,
+      "rating": 4.7,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Sky Deck Observation Lounge",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Volcanic Plunge Pool",
+        "Private Beach / Lagoon Access",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-35",
+      "name": "The Retreat Madh Island",
+      "type": "resort",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Mumbai, India",
+      "pricePerNight": 552,
+      "rating": 4.81,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Sommelier-Stocked Wine Vault",
+        "Pre-stocked Espresso Bar",
+        "Heated Infinity Pool",
+        "EV Charging Station",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-36",
+      "name": "Fariyas Resort Lonavala",
+      "type": "resort",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Mumbai, India",
+      "pricePerNight": 512,
+      "rating": 4.8,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Helipad & Lounge Access",
+        "Personal Chef & Host",
+        "Heated Infinity Pool",
+        "Outdoor Rainfall Showers",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-37",
+      "name": "Amanzi Resort Lonavala",
+      "type": "resort",
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Mumbai, India",
+      "pricePerNight": 551,
+      "rating": 4.69,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Bespoke Butler Service",
+        "Pre-stocked Espresso Bar",
+        "Sommelier-Stocked Wine Vault",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-38",
+      "name": "Rhythm Resort Lonavala",
+      "type": "resort",
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Mumbai, India",
+      "pricePerNight": 916,
+      "rating": 4.8,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Integrated Home Automations",
+        "Private Beach / Lagoon Access",
+        "24/7 Elite Concierge",
+        "Helipad & Lounge Access",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-39",
+      "name": "Cloud 9 Hills Resort",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Mumbai, India",
+      "pricePerNight": 529,
+      "rating": 4.8,
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Private Volcanic Plunge Pool",
+        "Ancient Ayurvedic Wellness Spa",
+        "Michelin Star Dining",
+        "Heated Infinity Pool",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-40",
+      "name": "The Dukes Retreat Lonavala",
+      "type": "resort",
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Mumbai, India",
+      "pricePerNight": 828,
+      "rating": 4.98,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Integrated Home Automations",
+        "Ancient Ayurvedic Wellness Spa",
+        "Pre-stocked Espresso Bar",
+        "24/7 Elite Concierge",
+        "EV Charging Station",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-41",
+      "name": "The Oberoi Grand Kolkata",
+      "type": "hotel",
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Kolkata, India",
+      "pricePerNight": 395,
+      "rating": 4.72,
+      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Ancient Ayurvedic Wellness Spa",
+        "Integrated Home Automations",
+        "Private Beach / Lagoon Access",
+        "Bespoke Butler Service",
+        "EV Charging Station"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "gk-prop-42",
+      "name": "Taj Bengal Kolkata",
+      "type": "hotel",
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Kolkata, India",
+      "pricePerNight": 404,
+      "rating": 4.5,
+      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Private Chauffeur Service",
+        "EV Charging Station",
+        "Private Beach / Lagoon Access",
+        "Private Volcanic Plunge Pool",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-43",
+      "name": "ITC Royal Bengal",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Kolkata, India",
+      "pricePerNight": 516,
+      "rating": 4.9,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Sommelier-Stocked Wine Vault",
+        "Helipad & Lounge Access",
+        "Private Chauffeur Service",
+        "Outdoor Rainfall Showers",
+        "Heated Infinity Pool",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-44",
+      "name": "The Westin Kolkata Rajarhat",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Kolkata, India",
+      "pricePerNight": 294,
+      "rating": 4.59,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "EV Charging Station",
+        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Private Volcanic Plunge Pool",
+        "Personal Chef & Host",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-45",
+      "name": "JW Marriott Kolkata",
+      "type": "hotel",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Kolkata, India",
+      "pricePerNight": 565,
+      "rating": 4.97,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Michelin Star Dining",
+        "Integrated Home Automations",
+        "Private Volcanic Plunge Pool",
+        "Pre-stocked Espresso Bar",
+        "Private Beach / Lagoon Access",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-46",
+      "name": "The Lalit Great Eastern",
+      "type": "hotel",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Kolkata, India",
+      "pricePerNight": 684,
+      "rating": 4.66,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Ancient Ayurvedic Wellness Spa",
+        "Pre-stocked Espresso Bar",
+        "Private Beach / Lagoon Access",
+        "24/7 Elite Concierge",
+        "Michelin Star Dining",
+        "Integrated Home Automations"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-47",
+      "name": "Hyatt Regency Kolkata",
+      "type": "hotel",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Kolkata, India",
+      "pricePerNight": 292,
+      "rating": 4.71,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Private Volcanic Plunge Pool",
+        "Private Chauffeur Service",
+        "Sommelier-Stocked Wine Vault",
+        "Helipad & Lounge Access",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-48",
+      "name": "Novotel Kolkata Hotel & Residences",
+      "type": "hotel",
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Kolkata, India",
+      "pricePerNight": 677,
+      "rating": 4.75,
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Private Beach / Lagoon Access",
+        "Personal Chef & Host",
+        "Helipad & Lounge Access",
+        "Michelin Star Dining",
+        "Pre-stocked Espresso Bar",
+        "Integrated Home Automations"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-49",
+      "name": "Swissotel Kolkata",
+      "type": "hotel",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Kolkata, India",
+      "pricePerNight": 478,
+      "rating": 4.83,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Pre-stocked Espresso Bar",
+        "EV Charging Station",
+        "Sky Deck Observation Lounge",
+        "Sommelier-Stocked Wine Vault",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-50",
+      "name": "The Park Kolkata",
+      "type": "hotel",
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Kolkata, India",
+      "pricePerNight": 510,
+      "rating": 4.6,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Integrated Home Automations",
+        "Personal Chef & Host",
+        "Outdoor Rainfall Showers",
+        "Ancient Ayurvedic Wellness Spa",
+        "Michelin Star Dining",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-51",
+      "name": "Vedic Village Spa Resort",
+      "type": "resort",
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Kolkata, India",
+      "pricePerNight": 817,
+      "rating": 4.63,
+      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Pre-stocked Espresso Bar",
+        "Ancient Ayurvedic Wellness Spa",
+        "Heated Infinity Pool",
+        "Sky Deck Observation Lounge",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "gk-prop-52",
+      "name": "The Ffort Raichak Resort",
+      "type": "resort",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Kolkata, India",
+      "pricePerNight": 528,
+      "rating": 4.89,
+      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Sommelier-Stocked Wine Vault",
+        "Helipad & Lounge Access",
+        "EV Charging Station",
+        "Integrated Home Automations",
+        "Personal Chef & Host"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-53",
+      "name": "Ibiza The Fern Resort & Spa",
+      "type": "resort",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Kolkata, India",
+      "pricePerNight": 934,
+      "rating": 4.63,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Private Beach / Lagoon Access",
+        "Michelin Star Dining",
+        "Private Volcanic Plunge Pool",
+        "Ancient Ayurvedic Wellness Spa",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-54",
+      "name": "Country Roads Resort",
+      "type": "resort",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Kolkata, India",
+      "pricePerNight": 525,
+      "rating": 4.63,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "24/7 Elite Concierge",
+        "Pre-stocked Espresso Bar",
+        "Michelin Star Dining",
+        "Sky Deck Observation Lounge",
+        "Private Volcanic Plunge Pool",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-55",
+      "name": "Ganga Kutir Resort",
+      "type": "resort",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Kolkata, India",
+      "pricePerNight": 550,
+      "rating": 4.62,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Sky Deck Observation Lounge",
+        "Integrated Home Automations",
+        "EV Charging Station",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-56",
+      "name": "Nirala Eco Resort",
+      "type": "resort",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Kolkata, India",
+      "pricePerNight": 713,
+      "rating": 4.71,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Bespoke Butler Service",
+        "Private Volcanic Plunge Pool",
+        "Michelin Star Dining",
+        "Private Beach / Lagoon Access",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-57",
+      "name": "Sunderban Tiger Camp Resort",
+      "type": "resort",
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Kolkata, India",
+      "pricePerNight": 519,
+      "rating": 4.62,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Helipad & Lounge Access",
+        "Michelin Star Dining",
+        "Integrated Home Automations",
+        "Pre-stocked Espresso Bar",
+        "Sommelier-Stocked Wine Vault",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-58",
+      "name": "Breathing Earth Resort",
+      "type": "resort",
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Kolkata, India",
+      "pricePerNight": 838,
+      "rating": 4.61,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Private Beach / Lagoon Access",
+        "EV Charging Station",
+        "Ancient Ayurvedic Wellness Spa",
+        "Michelin Star Dining",
+        "Outdoor Rainfall Showers",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-59",
+      "name": "Solophok Chardham Retreat",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Kolkata, India",
+      "pricePerNight": 758,
+      "rating": 4.61,
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Integrated Home Automations",
+        "Private Chauffeur Service",
+        "EV Charging Station",
+        "Personal Chef & Host",
+        "Private Beach / Lagoon Access",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-60",
+      "name": "The Creek Club Resort",
+      "type": "resort",
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Kolkata, India",
+      "pricePerNight": 433,
+      "rating": 4.92,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Michelin Star Dining",
+        "Bespoke Butler Service",
+        "Helipad & Lounge Access",
+        "Private Chauffeur Service",
+        "24/7 Elite Concierge",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-61",
+      "name": "The Leela Palace Bangalore",
+      "type": "hotel",
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Bangalore, India",
+      "pricePerNight": 355,
       "rating": 4.81,
       "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
       "airbnbIcon": "🏢",
       "amenities": [
-        "Sommelier-Stocked Wine Vault",
+        "Private Volcanic Plunge Pool",
         "EV Charging Station",
-        "Executive Boardroom",
-        "24/7 Elite Concierge",
-        "Automated Robotic Valet"
-      ]
-    },
-    {
-      "id": "gk-prop-14",
-      "name": "Oberoi Exquisite Manor",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Kerala, India",
-      "pricePerNight": 575,
-      "rating": 4.54,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Integrated Home Automations",
-        "Heated Rooftop Infinity Pool",
-        "Sommelier-Stocked Wine Vault",
-        "24/7 Elite Concierge",
-        "Pre-stocked Espresso Bar"
-      ]
-    },
-    {
-      "id": "gk-prop-15",
-      "name": "Four Seasons Tranquil Haven",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "New Delhi, Delhi",
-      "pricePerNight": 863,
-      "rating": 4.84,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
+        "Ancient Ayurvedic Wellness Spa",
         "Helipad & Lounge Access",
-        "Automated Robotic Valet",
-        "Executive Boardroom",
-        "Heated Rooftop Infinity Pool",
-        "Pre-stocked Espresso Bar"
-      ]
-    },
-    {
-      "id": "gk-prop-16",
-      "name": "Trident Majestic Sanctuary",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Shimla, Himachal Pradesh",
-      "pricePerNight": 534,
-      "rating": 4.72,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Heated Rooftop Infinity Pool",
-        "Helipad & Lounge Access",
-        "Sommelier-Stocked Wine Vault",
         "Private Chauffeur Service",
-        "Pre-stocked Espresso Bar"
-      ]
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": true
     },
     {
-      "id": "gk-prop-17",
-      "name": "ITC Serene Estate",
+      "id": "gk-prop-62",
+      "name": "ITC Gardenia Bangalore",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Agra, Uttar Pradesh",
-      "pricePerNight": 624,
-      "rating": 4.83,
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Bangalore, India",
+      "pricePerNight": 569,
+      "rating": 4.77,
       "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "airbnbIcon": "🏨",
       "amenities": [
-        "Bespoke Butler Service",
+        "Heated Infinity Pool",
+        "Sommelier-Stocked Wine Vault",
+        "Personal Chef & Host",
+        "Integrated Home Automations",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-63",
+      "name": "Taj West End",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Bangalore, India",
+      "pricePerNight": 374,
+      "rating": 4.65,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Outdoor Rainfall Showers",
+        "Sommelier-Stocked Wine Vault",
+        "24/7 Elite Concierge",
+        "EV Charging Station",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-64",
+      "name": "The Oberoi Bangalore",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Bangalore, India",
+      "pricePerNight": 507,
+      "rating": 4.7,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
         "Pre-stocked Espresso Bar",
-        "24/7 Elite Concierge",
-        "EV Charging Station",
-        "Sommelier-Stocked Wine Vault"
-      ]
-    },
-    {
-      "id": "gk-prop-18",
-      "name": "Ritz-Carlton Heritage Residences",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Munnar, Kerala",
-      "pricePerNight": 1035,
-      "rating": 4.88,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "24/7 Elite Concierge",
-        "Helipad & Lounge Access",
+        "Private Chauffeur Service",
         "Sommelier-Stocked Wine Vault",
-        "Executive Boardroom",
-        "EV Charging Station"
-      ]
+        "Integrated Home Automations",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-19",
-      "name": "Four Seasons Luxury Manor",
+      "id": "gk-prop-65",
+      "name": "JW Marriott Bangalore",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Srinagar, Jammu and Kashmir",
-      "pricePerNight": 526,
-      "rating": 4.5,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Bangalore, India",
+      "pricePerNight": 627,
+      "rating": 4.81,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
       "airbnbIcon": "🏢",
       "amenities": [
-        "Heated Rooftop Infinity Pool",
-        "EV Charging Station",
-        "Executive Boardroom",
-        "Helipad & Lounge Access",
-        "Bespoke Butler Service"
-      ]
-    },
-    {
-      "id": "gk-prop-20",
-      "name": "St. Regis Luxury Oasis",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "New Delhi, Delhi",
-      "pricePerNight": 355,
-      "rating": 4.78,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
+        "Heated Infinity Pool",
+        "Ancient Ayurvedic Wellness Spa",
         "Sommelier-Stocked Wine Vault",
-        "Heated Rooftop Infinity Pool",
-        "Bespoke Butler Service",
-        "Helipad & Lounge Access",
+        "Outdoor Rainfall Showers",
+        "EV Charging Station",
         "24/7 Elite Concierge"
-      ]
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-21",
-      "name": "Four Seasons Serene Villas",
+      "id": "gk-prop-66",
+      "name": "Shangri-La Bangalore",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Varanasi, Uttar Pradesh",
-      "pricePerNight": 857,
-      "rating": 4.69,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Integrated Home Automations",
-        "Bespoke Butler Service",
-        "Sommelier-Stocked Wine Vault",
-        "Pre-stocked Espresso Bar",
-        "Private Chauffeur Service"
-      ]
-    },
-    {
-      "id": "gk-prop-22",
-      "name": "Taj Grand Manor",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Rishikesh, Uttarakhand",
-      "pricePerNight": 592,
-      "rating": 4.82,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Bangalore, India",
+      "pricePerNight": 283,
+      "rating": 4.7,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
       "amenities": [
         "Helipad & Lounge Access",
-        "Integrated Home Automations",
-        "EV Charging Station",
-        "Automated Robotic Valet",
-        "Private Chauffeur Service"
-      ]
-    },
-    {
-      "id": "gk-prop-23",
-      "name": "The Imperial Grand Estate",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Agra, Uttar Pradesh",
-      "pricePerNight": 400,
-      "rating": 4.67,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
+        "Private Beach / Lagoon Access",
         "Private Chauffeur Service",
-        "Executive Boardroom",
-        "Automated Robotic Valet",
-        "EV Charging Station",
-        "Two Michelin Star Dining Rooms"
-      ]
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Volcanic Plunge Pool",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-24",
-      "name": "The Imperial Grand Sanctuary",
+      "id": "gk-prop-67",
+      "name": "Conrad Bangalore",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Agra, Uttar Pradesh",
-      "pricePerNight": 989,
-      "rating": 4.58,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Bangalore, India",
+      "pricePerNight": 714,
+      "rating": 4.66,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
       "amenities": [
+        "Ancient Ayurvedic Wellness Spa",
         "Helipad & Lounge Access",
-        "Executive Boardroom",
-        "Automated Robotic Valet",
-        "Heated Rooftop Infinity Pool",
-        "Bespoke Butler Service"
-      ]
-    },
-    {
-      "id": "gk-prop-25",
-      "name": "JW Marriott Exquisite Villas",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Udaipur, Rajasthan",
-      "pricePerNight": 553,
-      "rating": 4.73,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "24/7 Elite Concierge",
-        "Automated Robotic Valet",
-        "Bespoke Butler Service",
-        "Pre-stocked Espresso Bar",
-        "EV Charging Station"
-      ]
-    },
-    {
-      "id": "gk-prop-26",
-      "name": "Oberoi Royal Residences",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Chennai, Tamil Nadu",
-      "pricePerNight": 703,
-      "rating": 4.75,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Heated Rooftop Infinity Pool",
-        "Integrated Home Automations",
-        "Executive Boardroom",
-        "Helipad & Lounge Access",
-        "EV Charging Station"
-      ]
-    },
-    {
-      "id": "gk-prop-27",
-      "name": "The Imperial Heritage Estate",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Manali, Himachal Pradesh",
-      "pricePerNight": 699,
-      "rating": 4.68,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Integrated Home Automations",
-        "Heated Rooftop Infinity Pool",
-        "Automated Robotic Valet",
-        "Helipad & Lounge Access",
-        "Pre-stocked Espresso Bar"
-      ]
-    },
-    {
-      "id": "gk-prop-28",
-      "name": "Four Seasons Palatial Villas",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Bengaluru, Karnataka",
-      "pricePerNight": 842,
-      "rating": 4.62,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Executive Boardroom",
-        "24/7 Elite Concierge",
-        "Sommelier-Stocked Wine Vault",
-        "Integrated Home Automations",
-        "EV Charging Station"
-      ]
-    },
-    {
-      "id": "gk-prop-29",
-      "name": "St. Regis Heritage Pavilion",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Jodhpur, Rajasthan",
-      "pricePerNight": 1040,
-      "rating": 4.93,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Bespoke Butler Service",
-        "Helipad & Lounge Access",
-        "24/7 Elite Concierge",
-        "Integrated Home Automations",
-        "Sommelier-Stocked Wine Vault"
-      ]
-    },
-    {
-      "id": "gk-prop-30",
-      "name": "The Imperial Serene Haven",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Leh, Ladakh",
-      "pricePerNight": 995,
-      "rating": 4.82,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "24/7 Elite Concierge",
+        "Private Chauffeur Service",
         "Integrated Home Automations",
         "Bespoke Butler Service",
-        "Pre-stocked Espresso Bar",
-        "Sommelier-Stocked Wine Vault"
-      ]
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-31",
-      "name": "JW Marriott Exquisite Sanctuary",
+      "id": "gk-prop-68",
+      "name": "Four Seasons Hotel Bangalore",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Leh, Ladakh",
-      "pricePerNight": 807,
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Bangalore, India",
+      "pricePerNight": 568,
       "rating": 4.57,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
       "amenities": [
-        "Heated Rooftop Infinity Pool",
-        "Bespoke Butler Service",
-        "Private Chauffeur Service",
-        "Automated Robotic Valet",
-        "Integrated Home Automations"
-      ]
+        "Personal Chef & Host",
+        "Integrated Home Automations",
+        "Ancient Ayurvedic Wellness Spa",
+        "Heated Infinity Pool",
+        "EV Charging Station"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-32",
-      "name": "Ritz-Carlton Palatial Oasis",
+      "id": "gk-prop-69",
+      "name": "The Ritz-Carlton Bangalore",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Darjeeling, West Bengal",
-      "pricePerNight": 529,
-      "rating": 4.68,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Bangalore, India",
+      "pricePerNight": 604,
+      "rating": 4.57,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
       "airbnbIcon": "🏢",
       "amenities": [
-        "Heated Rooftop Infinity Pool",
-        "Automated Robotic Valet",
-        "Helipad & Lounge Access",
+        "Integrated Home Automations",
         "Sommelier-Stocked Wine Vault",
-        "Executive Boardroom"
-      ]
+        "Private Chauffeur Service",
+        "Private Volcanic Plunge Pool",
+        "Personal Chef & Host"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-33",
-      "name": "The Imperial Tranquil Sanctuary",
+      "id": "gk-prop-70",
+      "name": "Sheraton Grand Bangalore",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Chennai, Tamil Nadu",
-      "pricePerNight": 795,
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Bangalore, India",
+      "pricePerNight": 468,
+      "rating": 4.75,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Michelin Star Dining",
+        "EV Charging Station",
+        "Private Chauffeur Service",
+        "Pre-stocked Espresso Bar",
+        "Private Volcanic Plunge Pool",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-71",
+      "name": "Angsana Oasis Resort & Spa",
+      "type": "resort",
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Bangalore, India",
+      "pricePerNight": 977,
       "rating": 4.9,
       "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "airbnbIcon": "🏝️",
       "amenities": [
-        "Heated Rooftop Infinity Pool",
-        "Automated Robotic Valet",
-        "EV Charging Station",
-        "Integrated Home Automations",
-        "24/7 Elite Concierge"
-      ]
-    },
-    {
-      "id": "gk-prop-34",
-      "name": "Oberoi Tranquil Retreat",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Bengaluru, Karnataka",
-      "pricePerNight": 566,
-      "rating": 4.88,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Executive Boardroom",
-        "24/7 Elite Concierge",
-        "Integrated Home Automations",
-        "Helipad & Lounge Access",
-        "Heated Rooftop Infinity Pool"
-      ]
-    },
-    {
-      "id": "gk-prop-35",
-      "name": "Ritz-Carlton Tranquil Villas",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Chennai, Tamil Nadu",
-      "pricePerNight": 982,
-      "rating": 4.64,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "24/7 Elite Concierge",
-        "Helipad & Lounge Access",
         "Bespoke Butler Service",
-        "Heated Rooftop Infinity Pool",
-        "Pre-stocked Espresso Bar"
-      ]
-    },
-    {
-      "id": "gk-prop-36",
-      "name": "Leela Royal Pavilion",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Jodhpur, Rajasthan",
-      "pricePerNight": 553,
-      "rating": 4.78,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Sommelier-Stocked Wine Vault",
-        "Heated Rooftop Infinity Pool",
+        "Helipad & Lounge Access",
+        "Private Volcanic Plunge Pool",
         "EV Charging Station",
-        "Automated Robotic Valet",
-        "Helipad & Lounge Access"
-      ]
-    },
-    {
-      "id": "gk-prop-37",
-      "name": "ITC Grand Retreat",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Jodhpur, Rajasthan",
-      "pricePerNight": 871,
-      "rating": 4.73,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Heated Rooftop Infinity Pool",
-        "Two Michelin Star Dining Rooms",
-        "Sommelier-Stocked Wine Vault",
-        "EV Charging Station",
-        "Automated Robotic Valet"
-      ]
-    },
-    {
-      "id": "gk-prop-38",
-      "name": "Four Seasons Boutique Villas",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Munnar, Kerala",
-      "pricePerNight": 314,
-      "rating": 4.89,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Integrated Home Automations",
-        "Helipad & Lounge Access",
-        "Sommelier-Stocked Wine Vault",
-        "Private Chauffeur Service",
-        "Heated Rooftop Infinity Pool"
-      ]
-    },
-    {
-      "id": "gk-prop-39",
-      "name": "JW Marriott Boutique Pavilion",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Mumbai, Maharashtra",
-      "pricePerNight": 628,
-      "rating": 4.78,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Executive Boardroom",
-        "EV Charging Station",
-        "24/7 Elite Concierge",
-        "Helipad & Lounge Access",
         "Pre-stocked Espresso Bar"
-      ]
+      ],
+      "isFeatured": true
     },
     {
-      "id": "gk-prop-40",
-      "name": "Oberoi Majestic Pavilion",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "New Delhi, Delhi",
-      "pricePerNight": 992,
-      "rating": 4.54,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "24/7 Elite Concierge",
-        "Helipad & Lounge Access",
-        "Heated Rooftop Infinity Pool",
-        "Automated Robotic Valet",
-        "Integrated Home Automations"
-      ]
-    },
-    {
-      "id": "gk-prop-41",
-      "name": "Four Seasons Boutique Sanctuary",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Shimla, Himachal Pradesh",
-      "pricePerNight": 491,
-      "rating": 4.63,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Private Chauffeur Service",
-        "24/7 Elite Concierge",
-        "EV Charging Station",
-        "Helipad & Lounge Access",
-        "Heated Rooftop Infinity Pool"
-      ]
-    },
-    {
-      "id": "gk-prop-42",
-      "name": "St. Regis Serene Residences",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Rishikesh, Uttarakhand",
-      "pricePerNight": 1017,
-      "rating": 4.79,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "24/7 Elite Concierge",
-        "Automated Robotic Valet",
-        "Sommelier-Stocked Wine Vault",
-        "Executive Boardroom",
-        "Pre-stocked Espresso Bar"
-      ]
-    },
-    {
-      "id": "gk-prop-43",
-      "name": "JW Marriott Palatial Oasis",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Darjeeling, West Bengal",
-      "pricePerNight": 950,
-      "rating": 4.86,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Heated Rooftop Infinity Pool",
-        "Executive Boardroom",
-        "Helipad & Lounge Access",
-        "Bespoke Butler Service",
-        "Pre-stocked Espresso Bar"
-      ]
-    },
-    {
-      "id": "gk-prop-44",
-      "name": "Oberoi Luxury Estate",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Jodhpur, Rajasthan",
-      "pricePerNight": 856,
-      "rating": 4.6,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Automated Robotic Valet",
-        "Helipad & Lounge Access",
-        "Pre-stocked Espresso Bar",
-        "Executive Boardroom",
-        "Integrated Home Automations"
-      ]
-    },
-    {
-      "id": "gk-prop-45",
-      "name": "Oberoi Tranquil Villas",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Jaisalmer, Rajasthan",
-      "pricePerNight": 684,
-      "rating": 4.68,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Private Chauffeur Service",
-        "Integrated Home Automations",
-        "Bespoke Butler Service",
-        "Heated Rooftop Infinity Pool",
-        "Pre-stocked Espresso Bar"
-      ]
-    },
-    {
-      "id": "gk-prop-46",
-      "name": "St. Regis Luxury Haven",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Varanasi, Uttar Pradesh",
-      "pricePerNight": 828,
-      "rating": 4.93,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Sommelier-Stocked Wine Vault",
-        "Pre-stocked Espresso Bar",
-        "24/7 Elite Concierge",
-        "Helipad & Lounge Access",
-        "Heated Rooftop Infinity Pool"
-      ]
-    },
-    {
-      "id": "gk-prop-47",
-      "name": "Oberoi Heritage Pavilion",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "New Delhi, Delhi",
+      "id": "gk-prop-72",
+      "name": "Windflower Resort & Spa Prakruthi",
+      "type": "resort",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Bangalore, India",
       "pricePerNight": 834,
-      "rating": 4.83,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "rating": 4.99,
+      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "airbnbIcon": "🌅",
       "amenities": [
-        "Automated Robotic Valet",
-        "24/7 Elite Concierge",
-        "Sommelier-Stocked Wine Vault",
-        "EV Charging Station",
-        "Helipad & Lounge Access"
-      ]
+        "Bespoke Butler Service",
+        "Private Volcanic Plunge Pool",
+        "Private Beach / Lagoon Access",
+        "Ancient Ayurvedic Wellness Spa",
+        "Integrated Home Automations",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-48",
-      "name": "Four Seasons Grand Estate",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Bengaluru, Karnataka",
-      "pricePerNight": 814,
-      "rating": 4.74,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
+      "id": "gk-prop-73",
+      "name": "Olde Bangalore Resort",
+      "type": "resort",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Bangalore, India",
+      "pricePerNight": 987,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
       "amenities": [
-        "Executive Boardroom",
-        "Heated Rooftop Infinity Pool",
-        "Helipad & Lounge Access",
+        "Bespoke Butler Service",
+        "EV Charging Station",
+        "Private Beach / Lagoon Access",
+        "Sky Deck Observation Lounge",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-74",
+      "name": "Guhantara Underground Cave Resort",
+      "type": "resort",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Bangalore, India",
+      "pricePerNight": 790,
+      "rating": 4.73,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Heated Infinity Pool",
         "Private Chauffeur Service",
-        "EV Charging Station"
-      ]
-    },
-    {
-      "id": "gk-prop-49",
-      "name": "Oberoi Royal Haven",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Darjeeling, West Bengal",
-      "pricePerNight": 710,
-      "rating": 4.98,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Executive Boardroom",
-        "Integrated Home Automations",
-        "Heated Rooftop Infinity Pool",
-        "EV Charging Station",
-        "Helipad & Lounge Access"
-      ]
-    },
-    {
-      "id": "gk-prop-50",
-      "name": "Four Seasons Serene Palace",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Rishikesh, Uttarakhand",
-      "pricePerNight": 433,
-      "rating": 4.55,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Automated Robotic Valet",
-        "Executive Boardroom",
-        "Integrated Home Automations",
+        "Helipad & Lounge Access",
         "Sommelier-Stocked Wine Vault",
-        "Heated Rooftop Infinity Pool"
-      ]
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-51",
-      "name": "Leela Exquisite Oasis",
+      "id": "gk-prop-75",
+      "name": "Clarks Exotica Convention Resort",
+      "type": "resort",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Bangalore, India",
+      "pricePerNight": 632,
+      "rating": 4.64,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Michelin Star Dining",
+        "Private Chauffeur Service",
+        "Outdoor Rainfall Showers",
+        "Personal Chef & Host",
+        "Helipad & Lounge Access",
+        "Integrated Home Automations"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-76",
+      "name": "The Golden Palms Hotel & Spa",
+      "type": "resort",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Bangalore, India",
+      "pricePerNight": 841,
+      "rating": 4.72,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Ancient Ayurvedic Wellness Spa",
+        "Pre-stocked Espresso Bar",
+        "Personal Chef & Host",
+        "Helipad & Lounge Access",
+        "24/7 Elite Concierge",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-77",
+      "name": "Discovery Village Bangalore",
+      "type": "resort",
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Bangalore, India",
+      "pricePerNight": 615,
+      "rating": 4.86,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Personal Chef & Host",
+        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Ancient Ayurvedic Wellness Spa",
+        "Bespoke Butler Service",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-78",
+      "name": "Signature Club Resort",
+      "type": "resort",
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Bangalore, India",
+      "pricePerNight": 922,
+      "rating": 4.75,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Sommelier-Stocked Wine Vault",
+        "Personal Chef & Host",
+        "Pre-stocked Espresso Bar",
+        "Integrated Home Automations",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-79",
+      "name": "Shilhaandara Heritage Resort",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Bangalore, India",
+      "pricePerNight": 890,
+      "rating": 4.69,
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Outdoor Rainfall Showers",
+        "Personal Chef & Host",
+        "Private Volcanic Plunge Pool",
+        "Private Beach / Lagoon Access",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-80",
+      "name": "Eagleton The Golf Resort",
+      "type": "resort",
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Bangalore, India",
+      "pricePerNight": 469,
+      "rating": 4.77,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Outdoor Rainfall Showers",
+        "Pre-stocked Espresso Bar",
+        "Michelin Star Dining",
+        "Sommelier-Stocked Wine Vault",
+        "Private Beach / Lagoon Access",
+        "EV Charging Station"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-81",
+      "name": "ITC Grand Chola",
       "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Shimla, Himachal Pradesh",
-      "pricePerNight": 452,
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Chennai, India",
+      "pricePerNight": 669,
       "rating": 4.53,
       "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
       "airbnbIcon": "🏢",
       "amenities": [
-        "EV Charging Station",
-        "24/7 Elite Concierge",
         "Private Chauffeur Service",
-        "Helipad & Lounge Access",
-        "Automated Robotic Valet"
-      ]
-    },
-    {
-      "id": "gk-prop-52",
-      "name": "JW Marriott Majestic Oasis",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Kerala, India",
-      "pricePerNight": 978,
-      "rating": 4.86,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
+        "Private Volcanic Plunge Pool",
+        "Sommelier-Stocked Wine Vault",
         "Integrated Home Automations",
-        "Heated Rooftop Infinity Pool",
-        "Two Michelin Star Dining Rooms",
-        "Automated Robotic Valet",
-        "Executive Boardroom"
-      ]
-    },
-    {
-      "id": "gk-prop-53",
-      "name": "Taj Grand Oasis",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Goa, India",
-      "pricePerNight": 676,
-      "rating": 4.55,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "EV Charging Station",
-        "Executive Boardroom",
-        "Two Michelin Star Dining Rooms",
-        "Heated Rooftop Infinity Pool",
-        "Integrated Home Automations"
-      ]
-    },
-    {
-      "id": "gk-prop-54",
-      "name": "Taj Boutique Palace",
-      "type": "hotel",
-      "tagline": "Experience the epitome of urban luxury and heritage in the heart of India.",
-      "location": "Bengaluru, Karnataka",
-      "pricePerNight": 978,
-      "rating": 4.86,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏢",
-      "amenities": [
-        "Two Michelin Star Dining Rooms",
-        "Private Chauffeur Service",
-        "EV Charging Station",
-        "Executive Boardroom",
-        "Sommelier-Stocked Wine Vault"
-      ]
-    },
-    {
-      "id": "gk-prop-55",
-      "name": "Tamara Grand Estate",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Goa, India",
-      "pricePerNight": 1386,
-      "rating": 4.75,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private White Sand Lagoon",
-        "Open-Air Relaxation Pavilions",
-        "Ancient Indian Wellness Spa",
-        "Personal Chef & Butler",
-        "Guided Heritage Walks"
-      ]
-    },
-    {
-      "id": "gk-prop-56",
-      "name": "Aman-i-Khas Grand Pavilion",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Goa, India",
-      "pricePerNight": 546,
-      "rating": 4.65,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Guided Heritage Walks",
-        "Private Elephant Safari",
-        "Personal Chef & Butler",
-        "Private Plunge Pool",
-        "Gourmet Farm-to-Table Dining"
-      ]
-    },
-    {
-      "id": "gk-prop-57",
-      "name": "Aman-i-Khas Royal Haven",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Shimla, Himachal Pradesh",
-      "pricePerNight": 1128,
-      "rating": 4.62,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Outdoor Rainfall Showers",
-        "Private Plunge Pool",
-        "Private Elephant Safari",
-        "Ancient Indian Wellness Spa",
-        "Private White Sand Lagoon"
-      ]
-    },
-    {
-      "id": "gk-prop-58",
-      "name": "Aman-i-Khas Luxury Oasis",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Goa, India",
-      "pricePerNight": 628,
-      "rating": 4.73,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private White Sand Lagoon",
-        "Guided Heritage Walks",
-        "Private Plunge Pool",
-        "Open-Air Relaxation Pavilions",
-        "Ayurvedic Yoga Pavilion"
-      ]
-    },
-    {
-      "id": "gk-prop-59",
-      "name": "Aman-i-Khas Palatial Haven",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Leh, Ladakh",
-      "pricePerNight": 880,
-      "rating": 4.97,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Personal Chef & Butler",
-        "Outdoor Rainfall Showers",
-        "Open-Air Relaxation Pavilions",
-        "Private White Sand Lagoon",
-        "Sunset Yacht Cruise"
-      ]
-    },
-    {
-      "id": "gk-prop-60",
-      "name": "Taj Exotica Majestic Villas",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Jaipur, Rajasthan",
-      "pricePerNight": 991,
-      "rating": 4.64,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Wildlife Jungle Safari",
-        "Private White Sand Lagoon",
-        "Open-Air Relaxation Pavilions",
-        "Ancient Indian Wellness Spa",
-        "Sunset Yacht Cruise"
-      ]
-    },
-    {
-      "id": "gk-prop-61",
-      "name": "Wildflower Hall Grand Villas",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Chennai, Tamil Nadu",
-      "pricePerNight": 1239,
-      "rating": 4.9,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Personal Chef & Butler",
-        "Ayurvedic Yoga Pavilion",
-        "Gourmet Farm-to-Table Dining",
-        "Ancient Indian Wellness Spa",
-        "Wildlife Jungle Safari"
-      ]
-    },
-    {
-      "id": "gk-prop-62",
-      "name": "Sujan Serene Palace",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Udaipur, Rajasthan",
-      "pricePerNight": 831,
-      "rating": 4.84,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private White Sand Lagoon",
-        "Open-Air Relaxation Pavilions",
-        "Gourmet Farm-to-Table Dining",
-        "Private Plunge Pool",
-        "Personal Chef & Butler"
-      ]
-    },
-    {
-      "id": "gk-prop-63",
-      "name": "Six Senses Heritage Pavilion",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Goa, India",
-      "pricePerNight": 584,
-      "rating": 4.71,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Ancient Indian Wellness Spa",
-        "Ayurvedic Yoga Pavilion",
-        "Outdoor Rainfall Showers",
-        "Sunset Yacht Cruise",
-        "Private Plunge Pool"
-      ]
-    },
-    {
-      "id": "gk-prop-64",
-      "name": "Ananda Palatial Manor",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Jaipur, Rajasthan",
-      "pricePerNight": 1242,
-      "rating": 4.99,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Guided Heritage Walks",
-        "Private Elephant Safari",
-        "Ayurvedic Yoga Pavilion",
-        "Private Plunge Pool",
-        "Wildlife Jungle Safari"
-      ]
-    },
-    {
-      "id": "gk-prop-65",
-      "name": "Aman-i-Khas Heritage Residences",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Manali, Himachal Pradesh",
-      "pricePerNight": 1128,
-      "rating": 4.98,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Gourmet Farm-to-Table Dining",
-        "Private Elephant Safari",
-        "Open-Air Relaxation Pavilions",
-        "Ayurvedic Yoga Pavilion",
-        "Private White Sand Lagoon"
-      ]
-    },
-    {
-      "id": "gk-prop-66",
-      "name": "Aman-i-Khas Palatial Pavilion",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Goa, India",
-      "pricePerNight": 860,
-      "rating": 4.76,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Ayurvedic Yoga Pavilion",
-        "Wildlife Jungle Safari",
-        "Guided Heritage Walks",
-        "Ancient Indian Wellness Spa",
-        "Gourmet Farm-to-Table Dining"
-      ]
-    },
-    {
-      "id": "gk-prop-67",
-      "name": "Aman-i-Khas Grand Palace",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Agra, Uttar Pradesh",
-      "pricePerNight": 640,
-      "rating": 4.72,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Sunset Yacht Cruise",
-        "Personal Chef & Butler",
-        "Outdoor Rainfall Showers",
-        "Open-Air Relaxation Pavilions",
-        "Ancient Indian Wellness Spa"
-      ]
-    },
-    {
-      "id": "gk-prop-68",
-      "name": "Aman-i-Khas Palatial Villas",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Jaisalmer, Rajasthan",
-      "pricePerNight": 405,
-      "rating": 4.76,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private White Sand Lagoon",
-        "Ayurvedic Yoga Pavilion",
-        "Gourmet Farm-to-Table Dining",
-        "Guided Heritage Walks",
-        "Open-Air Relaxation Pavilions"
-      ]
-    },
-    {
-      "id": "gk-prop-69",
-      "name": "Oberoi Vanyavilas Boutique Residences",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Goa, India",
-      "pricePerNight": 1391,
-      "rating": 4.7,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Personal Chef & Butler",
-        "Open-Air Relaxation Pavilions",
-        "Guided Heritage Walks",
-        "Ancient Indian Wellness Spa",
-        "Sunset Yacht Cruise"
-      ]
-    },
-    {
-      "id": "gk-prop-70",
-      "name": "Ananda Serene Estate",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Mumbai, Maharashtra",
-      "pricePerNight": 1326,
-      "rating": 4.77,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Sunset Yacht Cruise",
-        "Private White Sand Lagoon",
-        "Guided Heritage Walks",
-        "Gourmet Farm-to-Table Dining",
-        "Private Plunge Pool"
-      ]
-    },
-    {
-      "id": "gk-prop-71",
-      "name": "Tamara Tranquil Palace",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Chennai, Tamil Nadu",
-      "pricePerNight": 1228,
-      "rating": 4.73,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Outdoor Rainfall Showers",
-        "Guided Heritage Walks",
-        "Personal Chef & Butler",
-        "Ayurvedic Yoga Pavilion",
-        "Gourmet Farm-to-Table Dining"
-      ]
-    },
-    {
-      "id": "gk-prop-72",
-      "name": "Sujan Grand Residences",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Bengaluru, Karnataka",
-      "pricePerNight": 1147,
-      "rating": 4.76,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Gourmet Farm-to-Table Dining",
-        "Private White Sand Lagoon",
-        "Wildlife Jungle Safari",
-        "Personal Chef & Butler",
-        "Ancient Indian Wellness Spa"
-      ]
-    },
-    {
-      "id": "gk-prop-73",
-      "name": "Oberoi Vanyavilas Boutique Residences",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Udaipur, Rajasthan",
-      "pricePerNight": 1363,
-      "rating": 4.84,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private White Sand Lagoon",
-        "Ancient Indian Wellness Spa",
-        "Private Elephant Safari",
-        "Ayurvedic Yoga Pavilion",
-        "Personal Chef & Butler"
-      ]
-    },
-    {
-      "id": "gk-prop-74",
-      "name": "Tamara Royal Estate",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Goa, India",
-      "pricePerNight": 541,
-      "rating": 4.66,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private White Sand Lagoon",
-        "Gourmet Farm-to-Table Dining",
-        "Open-Air Relaxation Pavilions",
-        "Wildlife Jungle Safari",
-        "Ancient Indian Wellness Spa"
-      ]
-    },
-    {
-      "id": "gk-prop-75",
-      "name": "Wildflower Hall Boutique Palace",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Jaipur, Rajasthan",
-      "pricePerNight": 1076,
-      "rating": 4.84,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private Plunge Pool",
-        "Private Elephant Safari",
-        "Open-Air Relaxation Pavilions",
-        "Private White Sand Lagoon",
-        "Personal Chef & Butler"
-      ]
-    },
-    {
-      "id": "gk-prop-76",
-      "name": "Tamara Grand Estate",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Darjeeling, West Bengal",
-      "pricePerNight": 742,
-      "rating": 4.71,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Outdoor Rainfall Showers",
-        "Private Plunge Pool",
-        "Wildlife Jungle Safari",
-        "Private White Sand Lagoon",
-        "Sunset Yacht Cruise"
-      ]
-    },
-    {
-      "id": "gk-prop-77",
-      "name": "Sujan Royal Residences",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Rishikesh, Uttarakhand",
-      "pricePerNight": 1109,
-      "rating": 4.93,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Open-Air Relaxation Pavilions",
-        "Private White Sand Lagoon",
-        "Gourmet Farm-to-Table Dining",
-        "Ancient Indian Wellness Spa",
-        "Private Plunge Pool"
-      ]
-    },
-    {
-      "id": "gk-prop-78",
-      "name": "Aman-i-Khas Boutique Residences",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Leh, Ladakh",
-      "pricePerNight": 896,
-      "rating": 4.6,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Outdoor Rainfall Showers",
-        "Wildlife Jungle Safari",
-        "Ancient Indian Wellness Spa",
-        "Private Plunge Pool",
-        "Personal Chef & Butler"
-      ]
-    },
-    {
-      "id": "gk-prop-79",
-      "name": "Wildflower Hall Grand Villas",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Jodhpur, Rajasthan",
-      "pricePerNight": 1325,
-      "rating": 4.83,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Ayurvedic Yoga Pavilion",
-        "Gourmet Farm-to-Table Dining",
-        "Wildlife Jungle Safari",
-        "Guided Heritage Walks",
-        "Private Elephant Safari"
-      ]
-    },
-    {
-      "id": "gk-prop-80",
-      "name": "Wildflower Hall Luxury Estate",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Leh, Ladakh",
-      "pricePerNight": 1140,
-      "rating": 4.85,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Sunset Yacht Cruise",
-        "Ayurvedic Yoga Pavilion",
-        "Private White Sand Lagoon",
-        "Private Plunge Pool",
-        "Outdoor Rainfall Showers"
-      ]
-    },
-    {
-      "id": "gk-prop-81",
-      "name": "Tamara Grand Palace",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Jodhpur, Rajasthan",
-      "pricePerNight": 792,
-      "rating": 4.97,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Personal Chef & Butler",
-        "Ancient Indian Wellness Spa",
-        "Open-Air Relaxation Pavilions",
-        "Private Plunge Pool",
-        "Guided Heritage Walks"
-      ]
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-82",
-      "name": "Ananda Tranquil Sanctuary",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Leh, Ladakh",
-      "pricePerNight": 633,
-      "rating": 4.68,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "name": "Taj Coromandel Chennai",
+      "type": "hotel",
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Chennai, India",
+      "pricePerNight": 612,
+      "rating": 4.78,
+      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "airbnbIcon": "🏨",
       "amenities": [
-        "Private White Sand Lagoon",
-        "Personal Chef & Butler",
-        "Private Plunge Pool",
-        "Guided Heritage Walks",
-        "Private Elephant Safari"
-      ]
+        "Private Chauffeur Service",
+        "24/7 Elite Concierge",
+        "Michelin Star Dining",
+        "Integrated Home Automations",
+        "Sky Deck Observation Lounge",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-83",
-      "name": "Ananda Boutique Estate",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Kerala, India",
-      "pricePerNight": 1045,
-      "rating": 4.86,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "name": "The Leela Palace Chennai",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Chennai, India",
+      "pricePerNight": 495,
+      "rating": 4.66,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
       "amenities": [
-        "Sunset Yacht Cruise",
-        "Open-Air Relaxation Pavilions",
-        "Wildlife Jungle Safari",
-        "Private Plunge Pool",
-        "Private White Sand Lagoon"
-      ]
+        "Heated Infinity Pool",
+        "Michelin Star Dining",
+        "Bespoke Butler Service",
+        "Sky Deck Observation Lounge",
+        "Ancient Ayurvedic Wellness Spa",
+        "Integrated Home Automations"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-84",
-      "name": "Ananda Boutique Haven",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Andaman and Nicobar Islands",
-      "pricePerNight": 768,
-      "rating": 4.97,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "name": "Park Hyatt Chennai",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Chennai, India",
+      "pricePerNight": 559,
+      "rating": 4.63,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
       "amenities": [
-        "Private White Sand Lagoon",
-        "Sunset Yacht Cruise",
-        "Personal Chef & Butler",
-        "Private Elephant Safari",
-        "Wildlife Jungle Safari"
-      ]
+        "Michelin Star Dining",
+        "Outdoor Rainfall Showers",
+        "Helipad & Lounge Access",
+        "24/7 Elite Concierge",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-85",
-      "name": "Tamara Exquisite Villas",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Kerala, India",
-      "pricePerNight": 563,
-      "rating": 4.88,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "name": "Taj Club House Chennai",
+      "type": "hotel",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Chennai, India",
+      "pricePerNight": 425,
+      "rating": 4.9,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
+      "airbnbIcon": "🏢",
       "amenities": [
-        "Private Elephant Safari",
-        "Wildlife Jungle Safari",
-        "Private Plunge Pool",
-        "Ayurvedic Yoga Pavilion",
-        "Personal Chef & Butler"
-      ]
+        "Bespoke Butler Service",
+        "Ancient Ayurvedic Wellness Spa",
+        "Integrated Home Automations",
+        "Sommelier-Stocked Wine Vault",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-86",
-      "name": "Evolve Back Royal Palace",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Varanasi, Uttar Pradesh",
-      "pricePerNight": 1141,
-      "rating": 4.81,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "name": "The Raintree St. Mary's Road",
+      "type": "hotel",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Chennai, India",
+      "pricePerNight": 720,
+      "rating": 4.6,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
       "amenities": [
-        "Ancient Indian Wellness Spa",
-        "Ayurvedic Yoga Pavilion",
-        "Sunset Yacht Cruise",
-        "Gourmet Farm-to-Table Dining",
-        "Private Elephant Safari"
-      ]
+        "Private Beach / Lagoon Access",
+        "Bespoke Butler Service",
+        "24/7 Elite Concierge",
+        "Private Chauffeur Service",
+        "Heated Infinity Pool",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-87",
-      "name": "Tamara Luxury Haven",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Leh, Ladakh",
-      "pricePerNight": 470,
-      "rating": 4.99,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "name": "Hyatt Regency Chennai",
+      "type": "hotel",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Chennai, India",
+      "pricePerNight": 438,
+      "rating": 4.73,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
       "amenities": [
-        "Ayurvedic Yoga Pavilion",
-        "Guided Heritage Walks",
-        "Ancient Indian Wellness Spa",
-        "Open-Air Relaxation Pavilions",
-        "Private Elephant Safari"
-      ]
+        "EV Charging Station",
+        "Sky Deck Observation Lounge",
+        "Helipad & Lounge Access",
+        "Pre-stocked Espresso Bar",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-88",
-      "name": "Tamara Serene Haven",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Andaman and Nicobar Islands",
-      "pricePerNight": 445,
-      "rating": 4.74,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "name": "Hilton Chennai",
+      "type": "hotel",
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Chennai, India",
+      "pricePerNight": 444,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
       "amenities": [
-        "Private White Sand Lagoon",
-        "Gourmet Farm-to-Table Dining",
-        "Guided Heritage Walks",
-        "Personal Chef & Butler",
-        "Wildlife Jungle Safari"
-      ]
+        "Outdoor Rainfall Showers",
+        "Ancient Ayurvedic Wellness Spa",
+        "Integrated Home Automations",
+        "Pre-stocked Espresso Bar",
+        "EV Charging Station",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-89",
-      "name": "Oberoi Vanyavilas Grand Estate",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Shimla, Himachal Pradesh",
-      "pricePerNight": 1394,
-      "rating": 4.71,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "name": "The Westin Chennai Velachery",
+      "type": "hotel",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Chennai, India",
+      "pricePerNight": 423,
+      "rating": 4.58,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
+      "airbnbIcon": "🏢",
       "amenities": [
-        "Private Plunge Pool",
-        "Ancient Indian Wellness Spa",
-        "Wildlife Jungle Safari",
-        "Gourmet Farm-to-Table Dining",
-        "Sunset Yacht Cruise"
-      ]
+        "Heated Infinity Pool",
+        "Outdoor Rainfall Showers",
+        "24/7 Elite Concierge",
+        "Private Chauffeur Service",
+        "Private Volcanic Plunge Pool",
+        "Integrated Home Automations"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-90",
-      "name": "Ananda Serene Sanctuary",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Leh, Ladakh",
-      "pricePerNight": 1361,
-      "rating": 4.99,
-      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "name": "Feathers Radha Regent Hotel",
+      "type": "hotel",
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Chennai, India",
+      "pricePerNight": 521,
+      "rating": 4.56,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
       "amenities": [
-        "Private White Sand Lagoon",
-        "Sunset Yacht Cruise",
-        "Ayurvedic Yoga Pavilion",
-        "Open-Air Relaxation Pavilions",
-        "Private Elephant Safari"
-      ]
+        "Bespoke Butler Service",
+        "EV Charging Station",
+        "Private Beach / Lagoon Access",
+        "Personal Chef & Host",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-91",
-      "name": "Oberoi Vanyavilas Heritage Sanctuary",
+      "name": "InterContinental Chennai Mahabalipuram",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Manali, Himachal Pradesh",
-      "pricePerNight": 492,
-      "rating": 4.62,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Sunset Yacht Cruise",
-        "Ancient Indian Wellness Spa",
-        "Personal Chef & Butler",
-        "Outdoor Rainfall Showers",
-        "Private Elephant Safari"
-      ]
-    },
-    {
-      "id": "gk-prop-92",
-      "name": "Ananda Heritage Sanctuary",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Varanasi, Uttar Pradesh",
-      "pricePerNight": 938,
-      "rating": 4.88,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private Plunge Pool",
-        "Sunset Yacht Cruise",
-        "Personal Chef & Butler",
-        "Ancient Indian Wellness Spa",
-        "Outdoor Rainfall Showers"
-      ]
-    },
-    {
-      "id": "gk-prop-93",
-      "name": "Kumarakom Lake Resort Exquisite Villas",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Leh, Ladakh",
-      "pricePerNight": 1380,
-      "rating": 4.81,
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Chennai, India",
+      "pricePerNight": 906,
+      "rating": 4.83,
       "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
       "airbnbIcon": "🏝️",
       "amenities": [
-        "Personal Chef & Butler",
-        "Private White Sand Lagoon",
-        "Ayurvedic Yoga Pavilion",
-        "Gourmet Farm-to-Table Dining",
-        "Ancient Indian Wellness Spa"
-      ]
+        "Private Beach / Lagoon Access",
+        "Private Volcanic Plunge Pool",
+        "Helipad & Lounge Access",
+        "Bespoke Butler Service",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-92",
+      "name": "Taj Fisherman's Cove Resort & Spa",
+      "type": "resort",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Chennai, India",
+      "pricePerNight": 869,
+      "rating": 4.73,
+      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "EV Charging Station",
+        "24/7 Elite Concierge",
+        "Pre-stocked Espresso Bar",
+        "Personal Chef & Host",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-93",
+      "name": "Chariot Beach Resort",
+      "type": "resort",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Chennai, India",
+      "pricePerNight": 739,
+      "rating": 4.77,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Private Chauffeur Service",
+        "EV Charging Station",
+        "Heated Infinity Pool",
+        "Ancient Ayurvedic Wellness Spa",
+        "Personal Chef & Host"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-94",
-      "name": "Ananda Grand Estate",
+      "name": "Radisson Blu Resort Temple Bay",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Agra, Uttar Pradesh",
-      "pricePerNight": 1257,
-      "rating": 4.77,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Chennai, India",
+      "pricePerNight": 753,
+      "rating": 4.83,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
       "amenities": [
-        "Outdoor Rainfall Showers",
-        "Ancient Indian Wellness Spa",
-        "Wildlife Jungle Safari",
-        "Guided Heritage Walks",
-        "Ayurvedic Yoga Pavilion"
-      ]
+        "Ancient Ayurvedic Wellness Spa",
+        "EV Charging Station",
+        "Michelin Star Dining",
+        "Private Beach / Lagoon Access",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-95",
-      "name": "Evolve Back Palatial Retreat",
+      "name": "Grande Bay Resort Mahabalipuram",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Jaisalmer, Rajasthan",
-      "pricePerNight": 491,
-      "rating": 4.67,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Chennai, India",
+      "pricePerNight": 597,
+      "rating": 4.72,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
       "airbnbIcon": "🏝️",
       "amenities": [
-        "Sunset Yacht Cruise",
+        "Bespoke Butler Service",
+        "Sommelier-Stocked Wine Vault",
         "Outdoor Rainfall Showers",
-        "Private White Sand Lagoon",
-        "Ancient Indian Wellness Spa",
-        "Guided Heritage Walks"
-      ]
+        "EV Charging Station",
+        "Sky Deck Observation Lounge",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-96",
-      "name": "Ananda Royal Estate",
+      "name": "MGM Beach Resorts Chennai",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Manali, Himachal Pradesh",
-      "pricePerNight": 1332,
-      "rating": 4.94,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Chennai, India",
+      "pricePerNight": 529,
+      "rating": 4.76,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
       "amenities": [
-        "Outdoor Rainfall Showers",
-        "Private White Sand Lagoon",
-        "Private Plunge Pool",
-        "Open-Air Relaxation Pavilions",
-        "Gourmet Farm-to-Table Dining"
-      ]
+        "Personal Chef & Host",
+        "Ancient Ayurvedic Wellness Spa",
+        "Heated Infinity Pool",
+        "Private Beach / Lagoon Access",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
     },
     {
       "id": "gk-prop-97",
-      "name": "Wildflower Hall Luxury Oasis",
+      "name": "Ideal Beach Resort",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Darjeeling, West Bengal",
-      "pricePerNight": 448,
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Chennai, India",
+      "pricePerNight": 521,
+      "rating": 4.73,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Michelin Star Dining",
+        "Pre-stocked Espresso Bar",
+        "Bespoke Butler Service",
+        "Integrated Home Automations"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-98",
+      "name": "Shelter Beach Resort",
+      "type": "resort",
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Chennai, India",
+      "pricePerNight": 425,
+      "rating": 4.72,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Private Beach / Lagoon Access",
+        "Personal Chef & Host",
+        "Outdoor Rainfall Showers",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-99",
+      "name": "VGP Golden Beach Resort",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Chennai, India",
+      "pricePerNight": 413,
+      "rating": 4.69,
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Helipad & Lounge Access",
+        "Private Volcanic Plunge Pool",
+        "24/7 Elite Concierge",
+        "Bespoke Butler Service",
+        "Private Beach / Lagoon Access",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-100",
+      "name": "Landmark Pallavaa Beach Resort",
+      "type": "resort",
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Chennai, India",
+      "pricePerNight": 666,
+      "rating": 4.63,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Private Volcanic Plunge Pool",
+        "Sommelier-Stocked Wine Vault",
+        "Private Chauffeur Service",
+        "24/7 Elite Concierge",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-101",
+      "name": "Taj Falaknuma Palace",
+      "type": "hotel",
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 588,
+      "rating": 4.87,
+      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Private Volcanic Plunge Pool",
+        "Helipad & Lounge Access",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Beach / Lagoon Access",
+        "Outdoor Rainfall Showers",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-102",
+      "name": "ITC Kohenur Hyderabad",
+      "type": "hotel",
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 401,
+      "rating": 4.61,
+      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Helipad & Lounge Access",
+        "Heated Infinity Pool",
+        "Michelin Star Dining",
+        "EV Charging Station",
+        "Personal Chef & Host"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-103",
+      "name": "The Park Hyderabad",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 617,
+      "rating": 4.8,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Sommelier-Stocked Wine Vault",
+        "Personal Chef & Host",
+        "24/7 Elite Concierge",
+        "Bespoke Butler Service",
+        "Integrated Home Automations",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-104",
+      "name": "Park Hyatt Hyderabad",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 729,
+      "rating": 4.89,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Private Beach / Lagoon Access",
+        "Integrated Home Automations",
+        "EV Charging Station",
+        "Michelin Star Dining",
+        "Private Chauffeur Service",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-105",
+      "name": "Trident Hyderabad",
+      "type": "hotel",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 474,
+      "rating": 4.97,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Sommelier-Stocked Wine Vault",
+        "24/7 Elite Concierge",
+        "Bespoke Butler Service",
+        "Pre-stocked Espresso Bar",
+        "Outdoor Rainfall Showers",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-106",
+      "name": "Taj Krishna Hyderabad",
+      "type": "hotel",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 581,
+      "rating": 4.64,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Heated Infinity Pool",
+        "Michelin Star Dining",
+        "Sommelier-Stocked Wine Vault",
+        "Outdoor Rainfall Showers",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-107",
+      "name": "The Westin Hyderabad Mindspace",
+      "type": "hotel",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 433,
+      "rating": 4.87,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "24/7 Elite Concierge",
+        "Pre-stocked Espresso Bar",
+        "Helipad & Lounge Access",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-108",
+      "name": "Sheraton Hyderabad Hotel",
+      "type": "hotel",
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 531,
+      "rating": 4.58,
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "EV Charging Station",
+        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Private Beach / Lagoon Access",
+        "Bespoke Butler Service",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-109",
+      "name": "Hyatt Regency Hyderabad",
+      "type": "hotel",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 440,
+      "rating": 4.73,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Private Chauffeur Service",
+        "Michelin Star Dining",
+        "Heated Infinity Pool",
+        "Personal Chef & Host",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-110",
+      "name": "JW Marriott Hyderabad",
+      "type": "hotel",
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 624,
+      "rating": 4.84,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Pre-stocked Espresso Bar",
+        "Ancient Ayurvedic Wellness Spa",
+        "Sommelier-Stocked Wine Vault",
+        "Outdoor Rainfall Showers",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-111",
+      "name": "Lahari Resorts Hyderabad",
+      "type": "resort",
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 416,
+      "rating": 4.89,
+      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Private Beach / Lagoon Access",
+        "EV Charging Station",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Volcanic Plunge Pool",
+        "24/7 Elite Concierge",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-112",
+      "name": "Pragati Resorts Spa & Wellness",
+      "type": "resort",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 802,
+      "rating": 4.79,
+      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "24/7 Elite Concierge",
+        "Pre-stocked Espresso Bar",
+        "Sky Deck Observation Lounge",
+        "Sommelier-Stocked Wine Vault",
+        "Private Beach / Lagoon Access",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-113",
+      "name": "Golkonda Resorts & Spa",
+      "type": "resort",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 500,
+      "rating": 4.92,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "EV Charging Station",
+        "Helipad & Lounge Access",
+        "Pre-stocked Espresso Bar",
+        "Ancient Ayurvedic Wellness Spa",
+        "Sommelier-Stocked Wine Vault",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-114",
+      "name": "Dream Valley Resorts",
+      "type": "resort",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 900,
+      "rating": 4.79,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Michelin Star Dining",
+        "Ancient Ayurvedic Wellness Spa",
+        "Bespoke Butler Service",
+        "Helipad & Lounge Access",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-115",
+      "name": "Leonia Holistic Destination Resort",
+      "type": "resort",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 751,
+      "rating": 4.92,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Private Beach / Lagoon Access",
+        "Private Volcanic Plunge Pool",
+        "Pre-stocked Espresso Bar",
+        "Sky Deck Observation Lounge",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-116",
+      "name": "Palm Exotica Boutique Resort",
+      "type": "resort",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 673,
+      "rating": 4.74,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Private Beach / Lagoon Access",
+        "Personal Chef & Host",
+        "Sky Deck Observation Lounge",
+        "EV Charging Station",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-117",
+      "name": "Alankrita Resort Hyderabad",
+      "type": "resort",
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 492,
+      "rating": 4.66,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Sky Deck Observation Lounge",
+        "Integrated Home Automations",
+        "EV Charging Station",
+        "24/7 Elite Concierge",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-118",
+      "name": "Summer Green Resort Spa",
+      "type": "resort",
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 419,
+      "rating": 4.69,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Pre-stocked Espresso Bar",
+        "Personal Chef & Host",
+        "Sky Deck Observation Lounge",
+        "Private Volcanic Plunge Pool",
+        "Helipad & Lounge Access",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-119",
+      "name": "Button Eyes Resort & Spa",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 871,
+      "rating": 4.89,
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Helipad & Lounge Access",
+        "Sommelier-Stocked Wine Vault",
+        "Personal Chef & Host",
+        "Sky Deck Observation Lounge",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-120",
+      "name": "Trance Greenfields Resort",
+      "type": "resort",
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Hyderabad, India",
+      "pricePerNight": 468,
+      "rating": 4.97,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "EV Charging Station",
+        "Helipad & Lounge Access",
+        "Private Chauffeur Service",
+        "Outdoor Rainfall Showers",
+        "Personal Chef & Host"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-121",
+      "name": "Hyatt Regency Ahmedabad",
+      "type": "hotel",
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 364,
+      "rating": 4.78,
+      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "EV Charging Station",
+        "Outdoor Rainfall Showers",
+        "Helipad & Lounge Access",
+        "Private Beach / Lagoon Access",
+        "Bespoke Butler Service",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-122",
+      "name": "Taj Skyline Ahmedabad",
+      "type": "hotel",
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 340,
+      "rating": 4.64,
+      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "EV Charging Station",
+        "24/7 Elite Concierge",
+        "Helipad & Lounge Access",
+        "Ancient Ayurvedic Wellness Spa",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-123",
+      "name": "Courtyard by Marriott Ahmedabad",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 712,
+      "rating": 4.98,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Sommelier-Stocked Wine Vault",
+        "Private Beach / Lagoon Access",
+        "Sky Deck Observation Lounge",
+        "Pre-stocked Espresso Bar",
+        "Private Chauffeur Service",
+        "Personal Chef & Host"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-124",
+      "name": "Radisson Blu Ahmedabad",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 544,
+      "rating": 4.98,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "24/7 Elite Concierge",
+        "Personal Chef & Host",
+        "Ancient Ayurvedic Wellness Spa",
+        "Pre-stocked Espresso Bar",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-125",
+      "name": "The House of MG Heritage Hotel",
+      "type": "hotel",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 320,
+      "rating": 4.68,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Helipad & Lounge Access",
+        "Integrated Home Automations",
+        "Outdoor Rainfall Showers",
+        "Personal Chef & Host",
+        "Private Beach / Lagoon Access",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-126",
+      "name": "ITC Narmada Ahmedabad",
+      "type": "hotel",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 634,
+      "rating": 4.53,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Michelin Star Dining",
+        "Helipad & Lounge Access",
+        "EV Charging Station"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-127",
+      "name": "DoubleTree by Hilton Ahmedabad",
+      "type": "hotel",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 659,
+      "rating": 4.52,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Outdoor Rainfall Showers",
+        "Private Volcanic Plunge Pool",
+        "Private Beach / Lagoon Access",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-128",
+      "name": "Crowne Plaza Ahmedabad",
+      "type": "hotel",
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 509,
+      "rating": 4.84,
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Helipad & Lounge Access",
+        "Outdoor Rainfall Showers",
+        "Personal Chef & Host",
+        "Heated Infinity Pool",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-129",
+      "name": "Novotel Ahmedabad",
+      "type": "hotel",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 702,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Michelin Star Dining",
+        "Private Volcanic Plunge Pool",
+        "Personal Chef & Host",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-130",
+      "name": "Pride Plaza Hotel Ahmedabad",
+      "type": "hotel",
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 411,
+      "rating": 4.69,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "EV Charging Station",
+        "Sky Deck Observation Lounge",
+        "24/7 Elite Concierge",
+        "Bespoke Butler Service",
+        "Private Volcanic Plunge Pool",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-131",
+      "name": "Gulmohar Greens Golf Resort",
+      "type": "resort",
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 692,
+      "rating": 4.72,
+      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Heated Infinity Pool",
+        "Integrated Home Automations",
+        "EV Charging Station",
+        "Private Chauffeur Service",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-132",
+      "name": "Narayani Heights Resort & Spa",
+      "type": "resort",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 984,
+      "rating": 4.71,
+      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Michelin Star Dining",
+        "Integrated Home Automations",
+        "Pre-stocked Espresso Bar",
+        "Private Chauffeur Service",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-133",
+      "name": "Madhubhan Resort & Spa",
+      "type": "resort",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 873,
+      "rating": 4.91,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "EV Charging Station",
+        "Personal Chef & Host",
+        "Outdoor Rainfall Showers",
+        "Private Chauffeur Service",
+        "Sky Deck Observation Lounge",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-134",
+      "name": "Boulevard9 Resort & Spa",
+      "type": "resort",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 414,
+      "rating": 4.75,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Michelin Star Dining",
+        "Bespoke Butler Service",
+        "Pre-stocked Espresso Bar",
+        "24/7 Elite Concierge",
+        "Helipad & Lounge Access",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-135",
+      "name": "Club Babylon Resort Ahmedabad",
+      "type": "resort",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 819,
+      "rating": 4.78,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Outdoor Rainfall Showers",
+        "Private Beach / Lagoon Access",
+        "24/7 Elite Concierge",
+        "Bespoke Butler Service",
+        "Sky Deck Observation Lounge",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-136",
+      "name": "Whistling Meadows Resort",
+      "type": "resort",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 471,
+      "rating": 4.93,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "EV Charging Station",
+        "Pre-stocked Espresso Bar",
+        "Personal Chef & Host",
+        "Private Beach / Lagoon Access",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-137",
+      "name": "Shanti Heritage Resort",
+      "type": "resort",
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 649,
+      "rating": 4.97,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Private Volcanic Plunge Pool",
+        "Michelin Star Dining",
+        "Heated Infinity Pool",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-138",
+      "name": "Belvedere Golf & Country Club",
+      "type": "resort",
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 605,
+      "rating": 4.77,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Helipad & Lounge Access",
+        "Sky Deck Observation Lounge",
+        "Outdoor Rainfall Showers",
+        "Heated Infinity Pool",
+        "24/7 Elite Concierge",
+        "EV Charging Station"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-139",
+      "name": "Greenwoods Resort & Spa",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 709,
+      "rating": 4.89,
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "24/7 Elite Concierge",
+        "EV Charging Station",
+        "Helipad & Lounge Access",
+        "Private Chauffeur Service",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-140",
+      "name": "100 Acres Resort Ahmedabad",
+      "type": "resort",
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Ahmedabad, India",
+      "pricePerNight": 373,
+      "rating": 4.96,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Private Volcanic Plunge Pool",
+        "Pre-stocked Espresso Bar",
+        "Integrated Home Automations",
+        "Helipad & Lounge Access",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-141",
+      "name": "Surat Marriott Hotel",
+      "type": "hotel",
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Surat, India",
+      "pricePerNight": 702,
+      "rating": 4.64,
+      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "24/7 Elite Concierge",
+        "Helipad & Lounge Access",
+        "Sky Deck Observation Lounge",
+        "Pre-stocked Espresso Bar",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-142",
+      "name": "Taj Gateway Surat",
+      "type": "hotel",
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Surat, India",
+      "pricePerNight": 704,
+      "rating": 4.62,
+      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Helipad & Lounge Access",
+        "Michelin Star Dining",
+        "Integrated Home Automations",
+        "Private Volcanic Plunge Pool",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-143",
+      "name": "Courtyard by Marriott Surat",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Surat, India",
+      "pricePerNight": 454,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Outdoor Rainfall Showers",
+        "24/7 Elite Concierge",
+        "Personal Chef & Host",
+        "EV Charging Station"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-144",
+      "name": "The Grand Bhagwati Surat",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Surat, India",
+      "pricePerNight": 445,
+      "rating": 4.96,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Integrated Home Automations",
+        "Private Volcanic Plunge Pool",
+        "Outdoor Rainfall Showers",
+        "Private Beach / Lagoon Access",
+        "Sommelier-Stocked Wine Vault",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-145",
+      "name": "Lords Plaza Surat",
+      "type": "hotel",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Surat, India",
+      "pricePerNight": 609,
+      "rating": 4.78,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Private Volcanic Plunge Pool",
+        "Ancient Ayurvedic Wellness Spa",
+        "Outdoor Rainfall Showers",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-146",
+      "name": "Radisson Hotel Surat",
+      "type": "hotel",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Surat, India",
+      "pricePerNight": 393,
+      "rating": 4.92,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "EV Charging Station",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Volcanic Plunge Pool",
+        "24/7 Elite Concierge",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-147",
+      "name": "Ginger Surat",
+      "type": "hotel",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Surat, India",
+      "pricePerNight": 706,
+      "rating": 4.99,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Michelin Star Dining",
+        "Integrated Home Automations",
+        "Outdoor Rainfall Showers",
+        "Heated Infinity Pool",
+        "Private Beach / Lagoon Access",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-148",
+      "name": "Central Beacon Hotel Surat",
+      "type": "hotel",
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Surat, India",
+      "pricePerNight": 654,
+      "rating": 4.68,
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Personal Chef & Host",
+        "Sky Deck Observation Lounge",
+        "Pre-stocked Espresso Bar",
+        "Michelin Star Dining",
+        "Sommelier-Stocked Wine Vault",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-149",
+      "name": "Orange Megastructure Surat",
+      "type": "hotel",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Surat, India",
+      "pricePerNight": 636,
+      "rating": 4.7,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Michelin Star Dining",
+        "Helipad & Lounge Access",
+        "Sky Deck Observation Lounge",
+        "Heated Infinity Pool",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-150",
+      "name": "Hotel Weekend Address",
+      "type": "hotel",
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Surat, India",
+      "pricePerNight": 620,
+      "rating": 4.65,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Ancient Ayurvedic Wellness Spa",
+        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Private Chauffeur Service",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-151",
+      "name": "Tithal Beach Resort Surat",
+      "type": "resort",
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Surat, India",
+      "pricePerNight": 784,
       "rating": 4.73,
       "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
       "airbnbIcon": "🏝️",
       "amenities": [
-        "Private Plunge Pool",
-        "Private White Sand Lagoon",
-        "Sunset Yacht Cruise",
-        "Open-Air Relaxation Pavilions",
-        "Ayurvedic Yoga Pavilion"
-      ]
+        "Sky Deck Observation Lounge",
+        "Private Chauffeur Service",
+        "24/7 Elite Concierge",
+        "Michelin Star Dining",
+        "EV Charging Station",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-98",
-      "name": "Sujan Tranquil Pavilion",
+      "id": "gk-prop-152",
+      "name": "Rajhans Belliza Resort & Spa",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Chennai, Tamil Nadu",
-      "pricePerNight": 1044,
-      "rating": 4.99,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Surat, India",
+      "pricePerNight": 726,
+      "rating": 4.98,
+      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "airbnbIcon": "🌅",
       "amenities": [
-        "Personal Chef & Butler",
-        "Private White Sand Lagoon",
-        "Wildlife Jungle Safari",
-        "Ayurvedic Yoga Pavilion",
-        "Gourmet Farm-to-Table Dining"
-      ]
+        "Bespoke Butler Service",
+        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Private Chauffeur Service",
+        "Pre-stocked Espresso Bar",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-99",
-      "name": "Sujan Serene Retreat",
+      "id": "gk-prop-153",
+      "name": "Dumas Beach Resort Surat",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Varanasi, Uttar Pradesh",
-      "pricePerNight": 1022,
-      "rating": 4.91,
-      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Surat, India",
+      "pricePerNight": 557,
+      "rating": 4.78,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Private Beach / Lagoon Access",
+        "Personal Chef & Host",
+        "Heated Infinity Pool",
+        "Helipad & Lounge Access",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-154",
+      "name": "Meraden La Rive Resort Dumas",
+      "type": "resort",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Surat, India",
+      "pricePerNight": 509,
+      "rating": 4.64,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Integrated Home Automations",
+        "Bespoke Butler Service",
+        "Sommelier-Stocked Wine Vault",
+        "24/7 Elite Concierge",
+        "Private Chauffeur Service",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-155",
+      "name": "Modella Resort Surat",
+      "type": "resort",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Surat, India",
+      "pricePerNight": 602,
+      "rating": 4.94,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
       "airbnbIcon": "🏝️",
       "amenities": [
-        "Wildlife Jungle Safari",
-        "Private Plunge Pool",
-        "Ayurvedic Yoga Pavilion",
-        "Sunset Yacht Cruise",
+        "Private Beach / Lagoon Access",
+        "Private Volcanic Plunge Pool",
+        "Integrated Home Automations",
+        "Ancient Ayurvedic Wellness Spa",
+        "Pre-stocked Espresso Bar",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-156",
+      "name": "Golden Swan Resort Surat",
+      "type": "resort",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Surat, India",
+      "pricePerNight": 975,
+      "rating": 4.72,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "24/7 Elite Concierge",
+        "Helipad & Lounge Access",
+        "Heated Infinity Pool",
+        "Sky Deck Observation Lounge",
+        "Sommelier-Stocked Wine Vault",
         "Outdoor Rainfall Showers"
-      ]
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-100",
-      "name": "Ananda Grand Oasis",
+      "id": "gk-prop-157",
+      "name": "Club Oasis Resort Surat",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Bengaluru, Karnataka",
-      "pricePerNight": 657,
-      "rating": 4.93,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
-      "airbnbIcon": "🏝️",
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Surat, India",
+      "pricePerNight": 946,
+      "rating": 4.82,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
       "amenities": [
-        "Personal Chef & Butler",
-        "Outdoor Rainfall Showers",
-        "Guided Heritage Walks",
-        "Ancient Indian Wellness Spa",
-        "Ayurvedic Yoga Pavilion"
-      ]
+        "Pre-stocked Espresso Bar",
+        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Sommelier-Stocked Wine Vault",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-101",
-      "name": "Aman-i-Khas Majestic Palace",
+      "id": "gk-prop-158",
+      "name": "Royal Rituals Resort & Spa",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Jodhpur, Rajasthan",
-      "pricePerNight": 645,
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Surat, India",
+      "pricePerNight": 601,
+      "rating": 4.71,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Michelin Star Dining",
+        "Pre-stocked Espresso Bar",
+        "Bespoke Butler Service",
+        "Private Beach / Lagoon Access",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-159",
+      "name": "The Farmhouse Resort Surat",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Surat, India",
+      "pricePerNight": 875,
       "rating": 4.76,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Ayurvedic Yoga Pavilion",
-        "Private Elephant Safari",
-        "Gourmet Farm-to-Table Dining",
-        "Personal Chef & Butler",
-        "Ancient Indian Wellness Spa"
-      ]
-    },
-    {
-      "id": "gk-prop-102",
-      "name": "Evolve Back Tranquil Palace",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Kerala, India",
-      "pricePerNight": 1393,
-      "rating": 4.68,
-      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
-      "airbnbIcon": "🏝️",
-      "amenities": [
-        "Private Plunge Pool",
-        "Private Elephant Safari",
-        "Open-Air Relaxation Pavilions",
-        "Ayurvedic Yoga Pavilion",
-        "Sunset Yacht Cruise"
-      ]
-    },
-    {
-      "id": "gk-prop-103",
-      "name": "Ananda Royal Palace",
-      "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Jaisalmer, Rajasthan",
-      "pricePerNight": 514,
-      "rating": 4.88,
-      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
       "airbnbIcon": "🏝️",
       "amenities": [
         "Outdoor Rainfall Showers",
-        "Open-Air Relaxation Pavilions",
-        "Gourmet Farm-to-Table Dining",
-        "Guided Heritage Walks",
-        "Ancient Indian Wellness Spa"
-      ]
+        "Integrated Home Automations",
+        "Sky Deck Observation Lounge",
+        "Pre-stocked Espresso Bar",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
     },
     {
-      "id": "gk-prop-104",
-      "name": "Kumarakom Lake Resort Palatial Residences",
+      "id": "gk-prop-160",
+      "name": "Riverview Retreat Surat",
       "type": "resort",
-      "tagline": "Unwind in an exclusive sanctuary surrounded by India's breathtaking natural landscapes.",
-      "location": "Andaman and Nicobar Islands",
-      "pricePerNight": 454,
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Surat, India",
+      "pricePerNight": 613,
+      "rating": 4.98,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Ancient Ayurvedic Wellness Spa",
+        "Sommelier-Stocked Wine Vault",
+        "Integrated Home Automations",
+        "Private Chauffeur Service",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-161",
+      "name": "JW Marriott Hotel Pune",
+      "type": "hotel",
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Pune, India",
+      "pricePerNight": 647,
+      "rating": 4.69,
+      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Private Volcanic Plunge Pool",
+        "Ancient Ayurvedic Wellness Spa",
+        "24/7 Elite Concierge",
+        "EV Charging Station",
+        "Helipad & Lounge Access",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-162",
+      "name": "The Ritz-Carlton Pune",
+      "type": "hotel",
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Pune, India",
+      "pricePerNight": 556,
+      "rating": 4.53,
+      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Michelin Star Dining",
+        "Private Volcanic Plunge Pool",
+        "Bespoke Butler Service",
+        "Heated Infinity Pool",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-163",
+      "name": "Sheraton Grand Pune",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Pune, India",
+      "pricePerNight": 408,
+      "rating": 4.62,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Heated Infinity Pool",
+        "Private Volcanic Plunge Pool",
+        "Helipad & Lounge Access",
+        "EV Charging Station",
+        "Outdoor Rainfall Showers"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-164",
+      "name": "Hyatt Regency Pune",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Pune, India",
+      "pricePerNight": 437,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Private Volcanic Plunge Pool",
+        "Ancient Ayurvedic Wellness Spa",
+        "Sommelier-Stocked Wine Vault",
+        "Private Chauffeur Service",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-165",
+      "name": "Conrad Pune",
+      "type": "hotel",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Pune, India",
+      "pricePerNight": 386,
+      "rating": 4.63,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Personal Chef & Host",
+        "Private Chauffeur Service",
+        "Outdoor Rainfall Showers",
+        "24/7 Elite Concierge",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-166",
+      "name": "The Westin Pune Koregaon Park",
+      "type": "hotel",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Pune, India",
+      "pricePerNight": 311,
+      "rating": 4.83,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Bespoke Butler Service",
+        "EV Charging Station",
+        "Michelin Star Dining",
+        "Integrated Home Automations",
+        "Private Volcanic Plunge Pool",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-167",
+      "name": "DoubleTree by Hilton Pune Chinchwad",
+      "type": "hotel",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Pune, India",
+      "pricePerNight": 318,
+      "rating": 4.6,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Pre-stocked Espresso Bar",
+        "Helipad & Lounge Access",
+        "Ancient Ayurvedic Wellness Spa",
+        "24/7 Elite Concierge",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-168",
+      "name": "O Hotel Pune",
+      "type": "hotel",
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Pune, India",
+      "pricePerNight": 606,
+      "rating": 4.5,
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Pre-stocked Espresso Bar",
+        "Private Chauffeur Service",
+        "Sommelier-Stocked Wine Vault",
+        "Outdoor Rainfall Showers",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-169",
+      "name": "Vivanta Pune Hinjawadi",
+      "type": "hotel",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Pune, India",
+      "pricePerNight": 404,
+      "rating": 4.83,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Personal Chef & Host",
+        "Outdoor Rainfall Showers",
+        "EV Charging Station",
+        "Pre-stocked Espresso Bar",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-170",
+      "name": "Novotel Pune Nagar Road",
+      "type": "hotel",
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Pune, India",
+      "pricePerNight": 605,
+      "rating": 4.58,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Ancient Ayurvedic Wellness Spa",
+        "Heated Infinity Pool",
+        "Outdoor Rainfall Showers",
+        "Pre-stocked Espresso Bar"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-171",
+      "name": "Oxford Golf Resort Pune",
+      "type": "resort",
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Pune, India",
+      "pricePerNight": 779,
+      "rating": 4.68,
+      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Ancient Ayurvedic Wellness Spa",
+        "Heated Infinity Pool",
+        "Personal Chef & Host",
+        "Integrated Home Automations",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-172",
+      "name": "The Corinthians Resort & Spa",
+      "type": "resort",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Pune, India",
+      "pricePerNight": 363,
+      "rating": 4.6,
+      "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Pre-stocked Espresso Bar",
+        "Heated Infinity Pool",
+        "Outdoor Rainfall Showers",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-173",
+      "name": "Fort JadhavGADH Heritage Resort",
+      "type": "resort",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Pune, India",
+      "pricePerNight": 544,
+      "rating": 4.9,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Integrated Home Automations",
+        "Pre-stocked Espresso Bar",
+        "Private Beach / Lagoon Access",
+        "24/7 Elite Concierge",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-174",
+      "name": "Sunny's World Resort Pune",
+      "type": "resort",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Pune, India",
+      "pricePerNight": 757,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "EV Charging Station",
+        "Pre-stocked Espresso Bar",
+        "Sky Deck Observation Lounge",
+        "Personal Chef & Host",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-175",
+      "name": "Sentosa Resorts Pune",
+      "type": "resort",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Pune, India",
+      "pricePerNight": 524,
+      "rating": 4.78,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Outdoor Rainfall Showers",
+        "Integrated Home Automations",
+        "EV Charging Station",
+        "Private Beach / Lagoon Access",
+        "Private Chauffeur Service",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-176",
+      "name": "Malhar Machi Mountain Resort",
+      "type": "resort",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Pune, India",
+      "pricePerNight": 759,
+      "rating": 4.95,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Integrated Home Automations",
+        "24/7 Elite Concierge",
+        "Sommelier-Stocked Wine Vault",
+        "Bespoke Butler Service",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-177",
+      "name": "Residency Lake Resort Mulshi",
+      "type": "resort",
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Pune, India",
+      "pricePerNight": 732,
+      "rating": 4.73,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Helipad & Lounge Access",
+        "Private Beach / Lagoon Access",
+        "Private Chauffeur Service",
+        "Sommelier-Stocked Wine Vault",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-178",
+      "name": "Rutuparna Wet N Wild Resort",
+      "type": "resort",
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Pune, India",
+      "pricePerNight": 422,
+      "rating": 4.81,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "Bespoke Butler Service",
+        "Helipad & Lounge Access",
+        "Private Beach / Lagoon Access",
+        "Pre-stocked Espresso Bar",
+        "Personal Chef & Host"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-179",
+      "name": "Karandi Valley Eco Resort",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Pune, India",
+      "pricePerNight": 844,
+      "rating": 4.93,
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Integrated Home Automations",
+        "Sky Deck Observation Lounge",
+        "Private Beach / Lagoon Access",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Chauffeur Service",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-180",
+      "name": "Ramee Grand Resort Pune",
+      "type": "resort",
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Pune, India",
+      "pricePerNight": 743,
+      "rating": 4.78,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Sommelier-Stocked Wine Vault",
+        "Personal Chef & Host",
+        "Pre-stocked Espresso Bar",
+        "Outdoor Rainfall Showers",
+        "Sky Deck Observation Lounge",
+        "Integrated Home Automations"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-181",
+      "name": "Rambagh Palace",
+      "type": "hotel",
+      "tagline": "Monolithic luxury design meets high-end urban sanctuary.",
+      "location": "Jaipur, India",
+      "pricePerNight": 464,
+      "rating": 4.97,
+      "primaryImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Pre-stocked Espresso Bar",
+        "Private Volcanic Plunge Pool",
+        "Sommelier-Stocked Wine Vault",
+        "Private Beach / Lagoon Access",
+        "Private Chauffeur Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-182",
+      "name": "The Oberoi Rajvilas",
+      "type": "hotel",
+      "tagline": "Breathtaking skyline views and sophisticated modern architecture.",
+      "location": "Jaipur, India",
+      "pricePerNight": 336,
+      "rating": 4.65,
+      "primaryImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Sky Deck Observation Lounge",
+        "Private Chauffeur Service",
+        "Private Beach / Lagoon Access",
+        "Sommelier-Stocked Wine Vault",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-183",
+      "name": "Jai Mahal Palace",
+      "type": "hotel",
+      "tagline": "A legacy of heritage, luxury, and unmatched concierge care.",
+      "location": "Jaipur, India",
+      "pricePerNight": 499,
+      "rating": 4.79,
+      "primaryImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Integrated Home Automations",
+        "Outdoor Rainfall Showers",
+        "Helipad & Lounge Access",
+        "Sommelier-Stocked Wine Vault",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-184",
+      "name": "Taj Amer Jaipur",
+      "type": "hotel",
+      "tagline": "Minimalist geometry and curated interiors in the city's heart.",
+      "location": "Jaipur, India",
+      "pricePerNight": 365,
+      "rating": 4.75,
+      "primaryImage": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Integrated Home Automations",
+        "Helipad & Lounge Access",
+        "Sommelier-Stocked Wine Vault",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-185",
+      "name": "Alsisar Haveli Heritage Hotel",
+      "type": "hotel",
+      "tagline": "Where business meets leisure in a state-of-the-art skyscraper.",
+      "location": "Jaipur, India",
+      "pricePerNight": 381,
+      "rating": 4.82,
+      "primaryImage": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "Personal Chef & Host",
+        "Sommelier-Stocked Wine Vault",
+        "Outdoor Rainfall Showers",
+        "Heated Infinity Pool",
+        "Integrated Home Automations",
+        "24/7 Elite Concierge"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-186",
+      "name": "Samode Haveli Jaipur",
+      "type": "hotel",
+      "tagline": "A majestic palace blending historic charm with modern tech.",
+      "location": "Jaipur, India",
+      "pricePerNight": 656,
+      "rating": 4.82,
+      "primaryImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Private Chauffeur Service",
+        "Helipad & Lounge Access",
+        "EV Charging Station",
+        "Pre-stocked Espresso Bar",
+        "Integrated Home Automations",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-187",
+      "name": "ITC Rajputana",
+      "type": "hotel",
+      "tagline": "Bespoke culinary dining and elite high-floor presidential suites.",
+      "location": "Jaipur, India",
+      "pricePerNight": 428,
+      "rating": 4.67,
+      "primaryImage": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?q=80&w=1200",
+      "airbnbIcon": "🏰",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Integrated Home Automations",
+        "24/7 Elite Concierge",
+        "Sky Deck Observation Lounge",
+        "Private Chauffeur Service",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-188",
+      "name": "The Leela Palace Jaipur",
+      "type": "hotel",
+      "tagline": "Impeccable details, custom furnishings, and tailored guest journeys.",
+      "location": "Jaipur, India",
+      "pricePerNight": 403,
+      "rating": 4.67,
+      "primaryImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1200",
+      "airbnbIcon": "🏛️",
+      "amenities": [
+        "Heated Infinity Pool",
+        "24/7 Elite Concierge",
+        "Ancient Ayurvedic Wellness Spa",
+        "Personal Chef & Host",
+        "Private Volcanic Plunge Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-189",
+      "name": "Hyatt Regency Jaipur Mansarovar",
+      "type": "hotel",
+      "tagline": "An oasis of quiet luxury rising above the metropolitan pulse.",
+      "location": "Jaipur, India",
+      "pricePerNight": 474,
+      "rating": 4.51,
+      "primaryImage": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1200",
+      "airbnbIcon": "🏢",
+      "amenities": [
+        "EV Charging Station",
+        "Helipad & Lounge Access",
+        "Private Beach / Lagoon Access",
+        "Integrated Home Automations",
+        "Private Chauffeur Service",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-190",
+      "name": "Hilton Jaipur",
+      "type": "hotel",
+      "tagline": "An architectural masterpiece crafted for the discerning global traveler.",
+      "location": "Jaipur, India",
+      "pricePerNight": 646,
+      "rating": 4.58,
+      "primaryImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200",
+      "airbnbIcon": "🏨",
+      "amenities": [
+        "Michelin Star Dining",
+        "Pre-stocked Espresso Bar",
+        "Ancient Ayurvedic Wellness Spa",
+        "EV Charging Station",
+        "Heated Infinity Pool"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-191",
+      "name": "The Tree House Resort Jaipur",
+      "type": "resort",
+      "tagline": "Secluded tropical villas overlooking pristine private lagoons.",
+      "location": "Jaipur, India",
+      "pricePerNight": 828,
+      "rating": 4.63,
+      "primaryImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Personal Chef & Host",
+        "Private Chauffeur Service",
+        "Integrated Home Automations",
+        "Outdoor Rainfall Showers",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-192",
+      "name": "Lohagarh Fort Resort",
+      "type": "resort",
+      "tagline": "Eco-luxe glass pavilions floating seamlessly over emerald forests.",
+      "location": "Jaipur, India",
+      "pricePerNight": 760,
       "rating": 4.64,
       "primaryImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Michelin Star Dining",
+        "Personal Chef & Host",
+        "Sky Deck Observation Lounge",
+        "Pre-stocked Espresso Bar",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-193",
+      "name": "Chokhi Dhani Resort",
+      "type": "resort",
+      "tagline": "A serene beachfront haven designed for total relaxation.",
+      "location": "Jaipur, India",
+      "pricePerNight": 893,
+      "rating": 4.97,
+      "primaryImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Bespoke Butler Service",
+        "Integrated Home Automations",
+        "Outdoor Rainfall Showers",
+        "Pre-stocked Espresso Bar",
+        "Helipad & Lounge Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-194",
+      "name": "Shiv Vilas Resort",
+      "type": "resort",
+      "tagline": "Majestic heritage fortresses surrounded by quiet sands.",
+      "location": "Jaipur, India",
+      "pricePerNight": 712,
+      "rating": 4.68,
+      "primaryImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Personal Chef & Host",
+        "Private Volcanic Plunge Pool",
+        "Helipad & Lounge Access",
+        "Outdoor Rainfall Showers",
+        "Michelin Star Dining"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-195",
+      "name": "Buena Vista Luxury Resort",
+      "type": "resort",
+      "tagline": "A tranquil wellness retreat offering holistic ancient spas.",
+      "location": "Jaipur, India",
+      "pricePerNight": 778,
+      "rating": 4.94,
+      "primaryImage": "https://images.unsplash.com/photo-1549294413-26f195afcbce?q=80&w=1200",
       "airbnbIcon": "🏝️",
       "amenities": [
-        "Personal Chef & Butler",
-        "Private Plunge Pool",
-        "Gourmet Farm-to-Table Dining",
-        "Ancient Indian Wellness Spa",
-        "Open-Air Relaxation Pavilions"
-      ]
+        "EV Charging Station",
+        "Integrated Home Automations",
+        "24/7 Elite Concierge",
+        "Bespoke Butler Service",
+        "Sommelier-Stocked Wine Vault",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-196",
+      "name": "Treeyambak Heritage Resort",
+      "type": "resort",
+      "tagline": "Cliffside infinity pools merging with the endless blue horizon.",
+      "location": "Jaipur, India",
+      "pricePerNight": 617,
+      "rating": 4.83,
+      "primaryImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "EV Charging Station",
+        "Bespoke Butler Service",
+        "24/7 Elite Concierge",
+        "Helipad & Lounge Access",
+        "Ancient Ayurvedic Wellness Spa",
+        "Private Beach / Lagoon Access"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-197",
+      "name": "Rajasthali Resort & Spa",
+      "type": "resort",
+      "tagline": "Private volcanic stone plunge pools and outdoor sky showers.",
+      "location": "Jaipur, India",
+      "pricePerNight": 998,
+      "rating": 4.66,
+      "primaryImage": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200",
+      "airbnbIcon": "🏞️",
+      "amenities": [
+        "Sommelier-Stocked Wine Vault",
+        "Personal Chef & Host",
+        "Private Beach / Lagoon Access",
+        "Bespoke Butler Service",
+        "Ancient Ayurvedic Wellness Spa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-198",
+      "name": "The Gateway Resort Jaipur",
+      "type": "resort",
+      "tagline": "A secluded nature hideaway offering curated wilderness safaris.",
+      "location": "Jaipur, India",
+      "pricePerNight": 437,
+      "rating": 4.97,
+      "primaryImage": "https://images.unsplash.com/photo-1586611292717-f82db57486ec?q=80&w=1200",
+      "airbnbIcon": "🏖️",
+      "amenities": [
+        "Outdoor Rainfall Showers",
+        "Helipad & Lounge Access",
+        "Ancient Ayurvedic Wellness Spa",
+        "24/7 Elite Concierge",
+        "Bespoke Butler Service"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-199",
+      "name": "Le Meridien Jaipur Resort & Spa",
+      "type": "resort",
+      "tagline": "Ultimate privacy with dedicated butlers and personalized dining.",
+      "location": "Jaipur, India",
+      "pricePerNight": 799,
+      "rating": 4.83,
+      "primaryImage": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1200",
+      "airbnbIcon": "🏝️",
+      "amenities": [
+        "Private Volcanic Plunge Pool",
+        "Heated Infinity Pool",
+        "Bespoke Butler Service",
+        "EV Charging Station",
+        "Sommelier-Stocked Wine Vault"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "gk-prop-200",
+      "name": "Laxmi Palace Heritage Resort",
+      "type": "resort",
+      "tagline": "A sanctuary of quiet luxury nestled amidst mist-laden hills.",
+      "location": "Jaipur, India",
+      "pricePerNight": 670,
+      "rating": 4.81,
+      "primaryImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200",
+      "airbnbIcon": "🌅",
+      "amenities": [
+        "Helipad & Lounge Access",
+        "Private Volcanic Plunge Pool",
+        "Integrated Home Automations",
+        "Ancient Ayurvedic Wellness Spa",
+        "Pre-stocked Espresso Bar",
+        "Sky Deck Observation Lounge"
+      ],
+      "isFeatured": false
     }
   ],
   "orders": [

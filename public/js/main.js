@@ -31,11 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const handleScroll = () => {
         if (window.scrollY > 20) {
-            header.style.backgroundColor = 'rgba(255, 255, 255, 0.88)';
-            header.style.borderBottomColor = 'rgba(0, 0, 0, 0.12)';
+            header.style.backgroundColor = 'rgba(5, 5, 5, 0.85)';
+            header.style.borderBottomColor = 'rgba(255, 255, 255, 0.08)';
+            header.style.backdropFilter = 'blur(30px)';
         } else {
-            header.style.backgroundColor = 'rgba(255, 255, 255, 0.72)';
-            header.style.borderBottomColor = 'rgba(0, 0, 0, 0.08)';
+            header.style.backgroundColor = 'rgba(5, 5, 5, 0.5)';
+            header.style.borderBottomColor = 'rgba(255, 255, 255, 0.03)';
+            header.style.backdropFilter = 'blur(15px)';
         }
     };
 
@@ -122,6 +124,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         checkInInput.addEventListener('change', calculatePrice);
         checkOutInput.addEventListener('change', calculatePrice);
+        
+        // Trigger price calculation on page load if dates are pre-filled
+        calculatePrice();
     }
 
     // 4. Dynamic Payment Form Handler

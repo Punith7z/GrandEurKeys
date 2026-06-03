@@ -17,16 +17,46 @@ router.get('/', (req, res) => {
 // 2. Dynamic Property Directory Core
 router.get('/properties', (req, res) => {
     let properties = Property.getAll();
-    const filter = req.query.type;
+    const filter = req.query.type || req.query.filter;
+    const locationQuery = req.query.location;
+    const checkin = req.query.checkin;
+    const checkout = req.query.checkout;
+    const guests = req.query.guests;
 
     if (filter === 'hotel' || filter === 'resort') {
         properties = properties.filter(p => p.type === filter);
     }
 
+    if (locationQuery) {
+        let query = locationQuery.toLowerCase().trim();
+        // Normalize common Indian city spellings / shorthand terms
+        if (query.includes("hyder")) query = "hyderabad";
+        else if (query.includes("bangl") || query === "blr") query = "bangalore";
+        else if (query.includes("delh")) query = "delhi";
+        else if (query.includes("mumb") || query === "bom") query = "mumbai";
+        else if (query.includes("kolk") || query.includes("calc") || query === "ccu") query = "kolkata";
+        else if (query.includes("chenn") || query.includes("madr") || query === "maa") query = "chennai";
+        else if (query.includes("ahmed") || query.includes("ahmad")) query = "ahmedabad";
+        else if (query.includes("sura")) query = "surat";
+        else if (query.includes("pune") || query.includes("poona")) query = "pune";
+        else if (query.includes("jaip")) query = "jaipur";
+
+        properties = properties.filter(p => 
+            p.location.toLowerCase().includes(query) || 
+            p.name.toLowerCase().includes(query)
+        );
+    }
+
     res.render('properties', {
         title: 'Explore Portfolios | Grandeur Keys',
         properties,
-        activeTab: filter || 'all'
+        activeTab: filter || 'all',
+        searchParams: {
+            location: locationQuery || '',
+            checkin: checkin || '',
+            checkout: checkout || '',
+            guests: guests || ''
+        }
     });
 });
 
@@ -35,13 +65,22 @@ router.get('/properties/:id', (req, res) => {
     const property = Property.getById(req.params.id);
     if (!property) return res.status(404).send('Residency Unresolved.');
 
+    const checkin = req.query.checkin || '';
+    const checkout = req.query.checkout || '';
+    const guests = req.query.guests || '';
+
     const mockContextSegment = { propertyId: property.id };
     const optimizedSplitSuggestion = Property.getOptimizedSplitSuggestion(mockContextSegment);
 
     res.render('property-details', {
         title: `${property.name} | Portfolio Details`,
         property,
-        suggestion: optimizedSplitSuggestion
+        suggestion: optimizedSplitSuggestion,
+        searchParams: {
+            checkin,
+            checkout,
+            guests
+        }
     });
 });
 
